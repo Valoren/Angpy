@@ -1,0 +1,12 @@
+Pyrel requirements:
+
+ * Python 2.7 ( http://python.org )
+ * numpy ( http://scipy.org )
+ * Cython ( http://www.cython.org )
+ * One of several UI library options, depending on which front-end you want 
+   to use:
+   * WxPython 2.9+ ( http://wxpython.org )
+   * PyQt4 4.9+ ( http://www.riverbankcomputing.com/software/pyqt/download )
+ * A C compiler (e.g. gcc) to generate the cmap library (util/_cmap.c).
+
+See the README for more information.

@@ -1,0 +1,7529 @@
+[
+  {
+    "templates": ["artifact", "light source"],
+    "subtype": "Phial",
+    "nameInfo": {"baseNoun": "Phial", "properName": "Galadriel"},
+    "description": "A small crystal phial containing the light of E\u00e4rendil's Star.Its light is imperishable, and near it darkness cannot endure.",
+    "index": 1,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 1.0,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.26666666666666666,
+        "minDepth": 5,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "NO_FUEL"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "10+d10",
+        "complexity": 5,
+        "message": "The {kind} well{s} with clear light...",
+        "effect": "ILLUMINATION"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "light source"],
+    "nameInfo": {"baseNoun": "Star", "properName": "Elendil"},
+    "description": "The shining Star of the North, a treasured heirloom of Elendil's house.",
+    "subtype": "Star",
+    "index": 2,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 0.5,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "SEE_INVIS",
+      "NO_FUEL"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50+d50",
+        "complexity": 30,
+        "message": "The {kind} shine{s} brightly...",
+        "effect": "MAPPING"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "light source"],
+    "nameInfo": {"baseNoun": "Arkenstone", "properName": "Thr\u00e1in"},
+    "description": "A great globe seemingly filled with moonlight, the famed Heart of theMountain.  It splinters the light that falls upon it into ten thousandsparks of white radiance shot with glints of the rainbow.",
+    "subtype": "Arkenstone",
+    "index": 3,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 0.5,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "SEE_INVIS",
+      "HOLD_LIFE",
+      "RES_LIGHT",
+      "RES_DARK",
+      "NO_FUEL"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50+d50",
+        "complexity": 50,
+        "message": "The {kind} form{s} an image in your mind...",
+        "effect": "CLAIRVOYANCE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Amulet", "properName": "Carlammas"},
+    "description": "A fiery circle of bronze, with mighty spells to ward off and banish evil.",
+    "subtype": "Amulet",
+    "index": 4,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "STR"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.3
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_FIRE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "225+d225",
+        "complexity": 50,
+        "message": "The {kind} let{s} out a shrill wail...",
+        "effect": "PROTEVIL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Amulet", "properName": "Ingw\u00eb"},
+    "description": "The ancient heirloom of Ingw\u00eb, high lord of the Vanyar, against whomnothing of evil could stand.",
+    "subtype": "Amulet",
+    "index": 5,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "CHR",
+          "INFRA"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.3
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 65,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "SEE_INVIS",
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_COLD",
+      "RES_ELEC",
+      "RES_CONFU"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50+d50",
+        "complexity": 65,
+        "message": "The {kind} flood{s} the area with goodness...",
+        "effect": "DISPEL_EVIL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Necklace", "properName": "the Dwarves"},
+    "description": "The Nauglam\u00edr, a carcanet of gold set with a multitude of shininggems of Valinor.  The radiant Silmaril of F\u00ebanor hangs in its midstas its crowning glory.  The sturdy spirits of Dwarvish craftsmen wholabored long in mountain smithies lie within it still, and as gossamerit rests upon the bearer.",
+    "subtype": "Necklace",
+    "index": 6,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "INFRA"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.3
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "SEE_INVIS",
+      "FREE_ACT",
+      "REGEN",
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "light source"],
+    "nameInfo": {"baseNoun": "Palant\u00edr", "properName": "Westernesse"},
+    "description": "A great globe with a heart of fire, the Palant\u00edr provides the wearer withsight of far places - at a cost, for those espied upon are aware of it.",
+    "subtype": "Palant\u00edr",
+    "index": 7,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "SEARCH",
+          "INFRA",
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 10,
+      "balance": 0.1,
+      "weight": 20.0,
+      "heft": 0.9,
+      "numDice": 10
+    },
+    "flags": [
+      "NO_FUEL",
+      "SEE_INVIS",
+      "TELEPATHY",
+      "RES_CHAOS",
+      "RES_BLIND",
+      "AGGRAVATE",
+      "DRAIN_EXP",
+      "LIGHT"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50+d50",
+        "complexity": 75,
+        "message": "The {kind} glow{s} a deep green...",
+        "effect": "CLAIRVOYANCE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring", "properName": "Barahir"},
+    "templates": "ring",
+    "description": "Twinned serpents with eyes of emerald meet beneath a crown of flowers toform this ring, an ancient treasure of Isildur's house.",
+    "subtype": "Ring",
+    "index": 8,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR",
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.006666666666666667,
+        "minDepth": 30,
+        "maxDepth": 50
+      },
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 51,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_POIS",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring", "properName": "Tulkas"},
+    "description": "The treasure of Tulkas, most fleet and wrathful of the Valar.",
+    "subtype": "Ring",
+    "index": 9,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "STR",
+          "DEX",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "150+d150",
+        "complexity": 70,
+        "message": "The {kind} glow{s} brightly...",
+        "effect": "HASTE2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring of Power", "properName": "'Narya'"},
+    "description": "The Ring of Fire, made of gold and set with a ruby that glows like flame.Narya is one of the three Rings of Power created by Celebrimbor and hiddenby the Elves from Sauron.",
+    "subtype": "Ring",
+    "index": 10,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 20,
+      "prowessBonus": 20,
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "FREE_ACT",
+      "SEE_INVIS",
+      "SLOW_DIGEST",
+      "REGEN",
+      "TELEPATHY",
+      "SUST_STR",
+      "SUST_CON",
+      "IM_FIRE",
+      "RES_FIRE",
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200+4d50",
+        "complexity": 70,
+        "message": "{name} glows deep red...",
+        "effect": "PROTEVIL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring of Power", "properName": "'Nenya'"},
+    "description": "The Ring of Adamant, made of mithril with a pure white stone ascenterpiece.  Nenya is one of the three Rings of Power created byCelebrimbor and hidden by the Elves from Sauron.",
+    "subtype": "Ring",
+    "index": 11,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 30,
+      "prowessBonus": 30,
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.006666666666666667,
+        "minDepth": 80,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "HOLD_LIFE",
+      "FREE_ACT",
+      "SEE_INVIS",
+      "FEATHER",
+      "REGEN",
+      "SUST_INT",
+      "SUST_WIS",
+      "SUST_CON",
+      "IM_COLD",
+      "RES_COLD",
+      "RES_BLIND",
+      "TELEPATHY"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200+2d50",
+        "complexity": 80,
+        "message": "{name} glows bright white...",
+        "effect": "RESTORE_LIFE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring of Power", "properName": "'Vilya'"},
+    "description": "The Ring of Sapphire, made of gold with a brilliant blue gem that shineslike stars.  It glitters untouchable despite all that Morgoth ever wrought.  Vilya is one of the three Rings of Power created by Celebrimbor andhidden by the Elves from Sauron.",
+    "subtype": "Ring",
+    "index": 12,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 50,
+      "prowessBonus": 50,
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.0033333333333333335,
+        "minDepth": 90,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "HOLD_LIFE",
+      "FREE_ACT",
+      "SEE_INVIS",
+      "FEATHER",
+      "SLOW_DIGEST",
+      "REGEN",
+      "TELEPATHY",
+      "SUST_DEX",
+      "SUST_INT",
+      "SUST_CON",
+      "IM_ELEC",
+      "RES_ELEC",
+      "RES_POIS",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200+2d50",
+        "complexity": 90,
+        "message": "{name} glows deep blue...",
+        "effect": "HEAL2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "ring"],
+    "nameInfo": {"baseNoun": "Ring of Power", "properName": "'The One Ring'"},
+    "description": "\"One Ring to rule them all, One Ring to find them, One Ring to bringthem all and in the darkness bind them.\"  Made of massive gold, andinscribed with hidden runes in the foul speech of Mordor, Isildur's Banepossesses powers so great that it inevitably twists and masters any mortalbeing who wears it.",
+    "subtype": "Ring",
+    "index": 13,
+    "mods": [
+      {
+        "bonus": 5,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR",
+          "SPEED"
+        ]
+      }
+    ],
+    "randomise": "False",
+    "stats": {
+      "finesseBonus": 150,
+      "prowessBonus": 150,
+      "weight": 0.2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.0006666666666666666,
+        "minDepth": 100,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "LIGHT_CURSE",
+      "HEAVY_CURSE",
+      "PERMA_CURSE",
+      "AGGRAVATE",
+      "DRAIN_EXP",
+      "SEE_INVIS",
+      "REGEN",
+      "TELEPATHY",
+      "IM_FIRE",
+      "IM_COLD",
+      "IM_ELEC",
+      "IM_ACID",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_ELEC",
+      "RES_ACID",
+      "RES_DARK",
+      "RES_DISEN",
+      "RES_POIS",
+      "RES_NETHR",
+      "SUST_STR",
+      "SUST_DEX",
+      "SUST_CON",
+      "SUST_INT",
+      "SUST_WIS",
+      "SUST_CHR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200+9d50",
+        "complexity": 100,
+        "message": "{name} glows intensely black...",
+        "effect": "BIZARRE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Elfstone", "properName": "'Elessar'"},
+    "description": "A green stone, imbued with the power of Elvendom and the light of the Sun.  Those who gaze through it see the aged and infirm as young again, and itswearer brings healing after victory in battle.",
+    "subtype": "Elfstone",
+    "index": 14,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "WIS",
+          "CHR",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 10,
+      "weight": 0.3
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_FEAR",
+      "RES_FIRE",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200",
+        "complexity": 60,
+        "message": "You feel a warm tingling inside...",
+        "effect": "HEAL1"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Jewel", "properName": "'Evenstar'"},
+    "description": "A plain white jewel, given by Queen Arwen to Frodo Baggins before his return to the Shire.",
+    "subtype": "Jewel",
+    "index": 15,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.3
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 30,
+        "maxDepth": 70
+      }
+    ],
+    "flags": [
+      "HOLD_LIFE",
+      "SUST_CON",
+      "SUST_WIS",
+      "REGEN",
+      "RES_DARK",
+      "RES_COLD",
+      "RES_NETHR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "150",
+        "complexity": 40,
+        "message": "Your {kind} glow{s} a deep red...",
+        "effect": "RESTORE_LIFE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "dragon armor"],
+    "nameInfo": {"baseNoun": "Multihued Dragon Scale Mail", "properName": "'Razorback'"},
+    "description": "A massive suit of heavy dragon scales deeply saturated with many colors.It throbs with angry energies, and you feel the raw elemental might ofuntamed Lightning as you put it on.",
+    "subtype": "Multihued Dragon Scale Mail",
+    "index": 16,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 25,
+      "baseArmor": 50,
+      "weight": 20.0,
+      "dieSize": 4,
+      "finesseBonus": -4,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 90,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "FREE_ACT",
+      "IM_ELEC",
+      "RES_DISEN",
+      "RES_ACID",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_POIS",
+      "RES_LIGHT",
+      "RES_DARK",
+      "SEE_INVIS",
+      "AGGRAVATE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 90,
+        "message": "Lightning surrounds your {kind}!",
+        "effect": "STAR_BALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "dragon armor"],
+    "nameInfo": {"baseNoun": "Power Dragon Scale Mail", "properName": "'Bladeturner'"},
+    "description": "An adamant suit with scales of every color.  Untrammelled powers elementaland ethereal swirl around it in an inextricably intermingled nimbus.",
+    "subtype": "Power Dragon Scale Mail",
+    "index": 17,
+    "stats": {
+      "armorBonus": 35,
+      "baseArmor": 80,
+      "weight": 25.0,
+      "dieSize": 4,
+      "finesseBonus": -8,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.0006666666666666666,
+        "minDepth": 100,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "HOLD_LIFE",
+      "REGEN",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_POIS",
+      "RES_FEAR",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_BLIND",
+      "RES_CONFU",
+      "RES_SOUND",
+      "RES_SHARD",
+      "RES_NETHR",
+      "RES_NEXUS",
+      "RES_CHAOS",
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 100,
+        "message": "{name} glow{s} many colors...",
+        "effect": "RAGE_BLESS_RESIST"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "dragon armor"],
+    "nameInfo": {"baseNoun": "Balance Dragon Scale Mail", "properName": "'Mediator'"},
+    "description": "A great suit of dragon hide, set with scales of many hues.  Even themightiest wyrms of Law and Chaos fear the judgement of its wearer.",
+    "subtype": "Balance Dragon Scale Mail",
+    "index": 18,
+    "stats": {
+      "armorBonus": 25,
+      "baseArmor": 60,
+      "weight": 25.0,
+      "dieSize": 4,
+      "finesseBonus": -4,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 95,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_CHAOS",
+      "RES_DISEN",
+      "RES_SHARD",
+      "RES_SOUND",
+      "RES_NEXUS",
+      "FREE_ACT",
+      "SLOW_DIGEST",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 95,
+        "message": "Lightning surrounds your {kind}!",
+        "effect": "STAR_BALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Adamantite Plate Mail", "properName": "'Soulkeeper'"},
+    "description": "A suit of imperishable adamant with unconquerable strength to endure eviland disruptive magics.  It protects the life force of its wearer asnothing else can.",
+    "subtype": "Adamantite Plate Mail",
+    "index": 19,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 90,
+      "weight": 42.0,
+      "dieSize": 4,
+      "finesseBonus": -4,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 75,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "HOLD_LIFE",
+      "SUST_CON",
+      "RES_ACID",
+      "RES_COLD",
+      "RES_DARK",
+      "RES_NETHR",
+      "RES_NEXUS",
+      "RES_CHAOS",
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "444",
+        "complexity": 75,
+        "message": "{name} glows a bright white...",
+        "effect": "HEAL2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Full Plate Armor", "properName": "Isildur"},
+    "description": "A gleaming steel suit covering the wearer from neck to foot, with runes ofwarding and stability deeply engraved into its surface.",
+    "subtype": "Full Plate Armor",
+    "index": 20,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 4,
+      "weight": 30.0,
+      "armorBonus": 25,
+      "baseArmor": 75,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 55,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_SOUND",
+      "RES_CONFU",
+      "RES_NEXUS"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Brigandine Armor", "properName": "the Rohirrim"},
+    "description": "Small steel plates cover an inner layer of sturdy canvas, and both metaland cloth bear scenes of hunting and war.  As you don the armor of Eorlthe Young, matchless in combat, you feel his spirit surround you.",
+    "subtype": "Brigandine Armor",
+    "index": 21,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 4,
+      "weight": 20.0,
+      "armorBonus": 15,
+      "baseArmor": 50,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.2,
+        "minDepth": 45,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_FEAR",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_CONFU",
+      "RES_SOUND"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Mithril Chain Mail", "properName": "'Belegennon'"},
+    "description": "This wondrous suit of fine-linked chain shimmers as though of pure silver.It stands untouched amidst the fury of the elements, and a power ofconcealment rests within.",
+    "subtype": "Mithril Chain Mail",
+    "index": 22,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 35,
+      "weight": 15.0,
+      "dieSize": 4,
+      "finesseBonus": -1,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.06,
+        "minDepth": 55,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "2",
+        "complexity": 40,
+        "message": "{name} twists space around you...",
+        "effect": "TELE_PHASE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Mithril Plate Mail", "properName": "Celeborn"},
+    "description": "A shimmering suit of true-silver, forged long ago by dwarven smiths oflegend. It gleams with purest white as you gaze upon it, and mighty areits powers to protect and banish.",
+    "subtype": "Mithril Plate Mail",
+    "index": 23,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 25,
+      "baseArmor": 65,
+      "weight": 25.0,
+      "dieSize": 4,
+      "finesseBonus": -3,
+      "numDice": 2
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.06,
+        "minDepth": 65,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_DARK",
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "500",
+        "complexity": 40,
+        "message": "Your {kind} glow{s} deep blue...",
+        "effect": "BANISHMENT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Chain Mail", "properName": "Arvedui"},
+    "description": "A hauberk, leggings, and sleeves of interlocking steel rings, well paddedwith leather.  You feel as strong and tall as Arvedui, last king of Arnor,as you put it on.",
+    "subtype": "Chain Mail",
+    "index": 24,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 15,
+      "baseArmor": 40,
+      "weight": 22.0,
+      "dieSize": 4,
+      "finesseBonus": -2,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.2,
+        "minDepth": 20,
+        "maxDepth": 75
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_SHARD",
+      "RES_NEXUS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hard armor"],
+    "nameInfo": {"baseNoun": "Augmented Chain Mail", "properName": "Caspanion"},
+    "description": "A hauberk, leggings, and sleeves of interlocking steel rings, strategicallyreinforced at vital locations with a second layer of chain.  Magics toenhance body and mind lie within, and no door can bar the wearer's path.",
+    "subtype": "Augmented Chain Mail",
+    "index": 25,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 45,
+      "weight": 27.0,
+      "dieSize": 4,
+      "finesseBonus": -2,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.07333333333333333,
+        "minDepth": 35,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_POIS",
+      "RES_CONFU"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "10",
+        "complexity": 25,
+        "message": "Your {kind} glow{s} bright red...",
+        "effect": "DESTROY_TDOORS"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "soft armor"],
+    "nameInfo": {"baseNoun": "Hard Leather Armor", "properName": "Himring"},
+    "description": "In this studded cuirass of pliable leather lives the memory ofunvanquished Himring, defiant fortress surrounded by the legions of Morgoth.",
+    "subtype": "Hard Leather Armor",
+    "index": 26,
+    "stats": {
+      "armorBonus": 15,
+      "baseArmor": 20,
+      "weight": 10.0
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.13333333333333333,
+        "minDepth": 25,
+        "maxDepth": 90
+      }
+    ],
+    "flags": [
+      "RES_CHAOS",
+      "RES_NETHR",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "100+d100",
+        "complexity": 50,
+        "message": "The {kind} let{s} out a shrill wail...",
+        "effect": "PROTEVIL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "soft armor"],
+    "nameInfo": {"baseNoun": "Hard Leather Armor", "properName": "'Hithlomir'"},
+    "description": "Familiar with the secret ways hidden in darkness, this leather cuirass istruly more than it appears.",
+    "subtype": "Soft Leather Armor",
+    "index": 27,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 10,
+      "weight": 8.0
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.13333333333333333,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_DARK",
+      "RES_NETHR"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "soft armor"],
+    "nameInfo": {"baseNoun": "Leather Scale Mail", "properName": "'Thalkettoth'"},
+    "description": "An amazingly light tunic and skirt sewn with thick, overlapping scales of hardened leather.  Those who wear it move with agility and assurance.",
+    "subtype": "Leather Scale Mail",
+    "index": 28,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "DEX",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 25,
+      "baseArmor": 20,
+      "weight": 6.0,
+      "dieSize": 1,
+      "finesseBonus": -1,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.13333333333333333,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ACID",
+      "RES_SHARD",
+      "FREE_ACT"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Shield of Deflection", "properName": "Gil-galad"},
+    "description": "The legendary shield of Ereinion Gil-galad, who fought his way to thegates of the Dark Tower, and with whom came light even to Gorgoroth.",
+    "subtype": "Shield of Deflection",
+    "index": 29,
+    "mods": [
+      {
+        "bonus": 5,
+        "flags": [
+          "WIS",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 3,
+      "weight": 8.0,
+      "armorBonus": 20,
+      "baseArmor": 20,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.08333333333333333,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_ELEC",
+      "RES_ACID",
+      "RES_DISEN",
+      "RES_DARK",
+      "SUST_WIS",
+      "SUST_DEX",
+      "SUST_CHR"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "100",
+        "complexity": 70,
+        "message": "Your {kind} glow{s} with the light of a thousand stars...",
+        "effect": "STARLIGHT2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Small Metal Shield", "properName": "Thorin"},
+    "description": "Invoking the strength and endurance of Thorin, King under the Mountain,this little metal shield is proof against the Element of Earth.",
+    "subtype": "Small Metal Shield",
+    "index": 30,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "CON"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": -1,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 2,
+      "weight": 6.5,
+      "armorBonus": 25,
+      "baseArmor": 5,
+      "numDice": 1
+    },
+    "allocatorRules": [
+      {
+        "commonness": 0.042666666666666665,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "flags": [
+      "RES_FEAR",
+      "RES_SOUND",
+      "FREE_ACT",
+      "IM_ACID",
+      "RES_CHAOS"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Large Leather Shield", "properName": "Celegorm"},
+    "index": 31,
+    "stats": {
+      "dieSize": 2,
+      "weight": 6.0,
+      "armorBonus": 20,
+      "baseArmor": 8,
+      "numDice": 1
+    },
+    "description": "This shield emblazoned with a multitude of creatures unseen for agesonce protected Celegorm, Lord of Himlad; around it, a mystic balance lies,containing the conflicts of the elements.",
+    "allocatorRules": [
+      {
+        "commonness": 0.18666666666666668,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Large Leather Shield",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_BLIND"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Large Metal Shield", "properName": "An\u00e1rion"},
+    "index": 32,
+    "stats": {
+      "dieSize": 3,
+      "weight": 12.0,
+      "armorBonus": 20,
+      "baseArmor": 12,
+      "numDice": 1
+    },
+    "description": "The great metal-bound shield of Elendil's younger son An\u00e1rion, whomeven Sauron could not corrupt.",
+    "allocatorRules": [
+      {
+        "commonness": 0.07333333333333333,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Large Metal Shield",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "SUST_STR",
+      "SUST_INT",
+      "SUST_WIS",
+      "SUST_DEX",
+      "SUST_CON",
+      "SUST_CHR"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Metal Cap", "properName": "Celebrimbor"},
+    "index": 33,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "CHR",
+          "SEARCH"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.0,
+      "armorBonus": 18,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "A metal cap forged by the greatest Noldorin smith of the Second Age,this helm serves equally well in battle or at the forge, and itsenchantment will never be diminished.",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 55,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Metal Cap",
+    "flags": [
+      "RES_FIRE",
+      "RES_ACID",
+      "RES_DISEN",
+      "RES_SHARD"
+    ],
+    "procs": [
+      {
+        "complexity": 55
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crown"],
+    "nameInfo": {"baseNoun": "Massive Iron Crown", "properName": "Morgoth"},
+    "index": 34,
+    "mods": [
+      {
+        "bonus": 125,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR",
+          "INFRA"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 40.0,
+      "numDice": 1
+    },
+    "description": "Containing much of the power of he who once was mightiest among the Ainur,this plain iron crown has mounted upon it the two remaining Silmarils,greatest treasures of Middle-Earth.",
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.0,
+        "minDepth": 100,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Massive Iron Crown",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_POIS",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_CONFU",
+      "RES_NEXUS",
+      "RES_NETHR",
+      "SEE_INVIS",
+      "TELEPATHY",
+      "RES_FEAR",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE",
+      "PERMA_CURSE"
+    ],
+    "display": {
+      "ascii": {
+        "color": [
+          96,
+          96,
+          96
+        ]
+      }
+    },
+    "procs": [
+      {
+        "complexity": 100
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crown"],
+    "nameInfo": {"baseNoun": "Iron Crown", "properName": "Ber\u00fathiel"},
+    "index": 35,
+    "mods": [
+      {
+        "bonus": -5,
+        "flags": [
+          "CON"
+        ]
+      },
+      {
+        "bonus": -3,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "armorBonus": 20,
+      "weight": 2.0,
+      "numDice": 1
+    },
+    "description": "The midnight-hued steel circlet of the sorceress-queen Ber\u00fathiel.  Itgrants extraordinary powers of sight and awareness at a terrible physicalcost.",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 45,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Iron Crown",
+    "flags": [
+      "FREE_ACT",
+      "SEE_INVIS",
+      "TELEPATHY",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Hard Leather Cap", "properName": "Thranduil"},
+    "index": 36,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 10,
+      "baseArmor": 2,
+      "weight": 1.5
+    },
+    "description": "The hunting cap of King Thranduil, to whose ears come all the secrets ofhis forest domain.",
+    "allocatorRules": [
+      {
+        "commonness": 0.09333333333333334,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Hard Leather Cap",
+    "flags": [
+      "RES_BLIND",
+      "TELEPATHY"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Metal Cap", "properName": "Thengel"},
+    "index": 37,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "WIS",
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.0,
+      "armorBonus": 12,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "A ridged helmet made of steel and embossed with scenes of valor in fine-engraved silver.  It grants the wearer nobility and understanding.",
+    "allocatorRules": [
+      {
+        "commonness": 0.12,
+        "minDepth": 10,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Metal Cap",
+    "flags": [
+      "RES_CONFU"
+    ],
+    "procs": [
+      {
+        "complexity": 10
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Steel Helm", "properName": "Hammerhand"},
+    "index": 38,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "DEX",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 3,
+      "weight": 6.0,
+      "armorBonus": 20,
+      "baseArmor": 9,
+      "numDice": 1
+    },
+    "description": "A great helm, as steady and as distinctive as the hero of the Westdike.Many long months was Helm Hammerhand besieged in the Hornburg, yet hestrode out time and again among his foes and slew many.  Although theyknew of his coming, none could stand against him.",
+    "allocatorRules": [
+      {
+        "commonness": 0.07333333333333333,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Steel Helm",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_NEXUS",
+      "RES_COLD",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Iron Helm", "properName": "Dor-L\u00f3min"},
+    "index": 39,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": -1,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 3,
+      "weight": 5.0,
+      "armorBonus": 20,
+      "baseArmor": 7,
+      "numDice": 1
+    },
+    "description": "The legendary Dragon-helm, forged by one of the legendary Dwarven smithsof the First Age.  The visage of mighty Glaurung forms its crest, and themere sight of the helm, borne by T\u00farin Turambar, struck dread into thehearts of the servants of Morgoth.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Iron Helm",
+    "flags": [
+      "RES_FEAR",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "SEE_INVIS",
+      "TELEPATHY"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Iron Helm", "properName": "'Holhenneth'"},
+    "index": 40,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS",
+          "SEARCH"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 3,
+      "weight": 5.0,
+      "armorBonus": 10,
+      "baseArmor": 7,
+      "numDice": 1
+    },
+    "description": "A famous forged iron helm granting extraordinary powers of mind andawareness.",
+    "allocatorRules": [
+      {
+        "commonness": 0.12,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Iron Helm",
+    "flags": [
+      "RES_BLIND",
+      "RES_CONFU",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "55+d55",
+        "complexity": 20,
+        "message": "{name} forms an image in your mind...",
+        "effect": "DETECT_ALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "helm"],
+    "nameInfo": {"baseNoun": "Iron Helm", "properName": "Gorlim"},
+    "index": 41,
+    "mods": [
+      {
+        "bonus": -5,
+        "flags": [
+          "SEARCH"
+        ]
+      },
+      {
+        "bonus": -3,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 10,
+      "baseArmor": 7,
+      "weight": 7.5,
+      "dieSize": 3,
+      "finesseBonus": 80,
+      "numDice": 1,
+      "prowessBonus": 80
+    },
+    "description": "A headpiece, gaudy and barbaric, that betrayed a warrior when he mostneeded succor.",
+    "allocatorRules": [
+      {
+        "commonness": 0.12,
+        "minDepth": 20,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Iron Helm",
+    "flags": [
+      "RES_FEAR",
+      "SEE_INVIS",
+      "FREE_ACT",
+      "AGGRAVATE",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crown"],
+    "nameInfo": {"baseNoun": "Golden Crown", "properName": "Gondor"},
+    "index": 42,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "armorBonus": 15,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "description": "From dying N\u00famenor, Elendil brought this shining winged circlet, emblem of Gondor through an age of the world.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 45,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Golden Crown",
+    "flags": [
+      "RES_COLD",
+      "RES_FIRE",
+      "RES_LIGHT",
+      "RES_BLIND",
+      "RES_CONFU",
+      "RES_STUN",
+      "SEE_INVIS",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "250",
+        "complexity": 40,
+        "message": "You feel a warm tingling inside...",
+        "effect": "HEAL1"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crown"],
+    "nameInfo": {"baseNoun": "Jewel Encrusted Crown", "properName": "N\u00famenor"},
+    "index": 43,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "INT",
+          "CHR",
+          "SEARCH"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "armorBonus": 18,
+      "weight": 4.0,
+      "numDice": 1
+    },
+    "description": "A massive golden crown, set with wondrous jewels of thought and warding,once worn by the kings of ancient N\u00famenor.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Jewel Encrusted Crown",
+    "flags": [
+      "SEE_INVIS",
+      "FREE_ACT",
+      "RES_SHARD",
+      "RES_STUN",
+      "RES_COLD",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_BLIND"
+    ],
+    "procs": [
+      {
+        "complexity": 60
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Cloak", "properName": "'Colluin'"},
+    "index": 44,
+    "stats": {
+      "armorBonus": 15,
+      "baseArmor": 1,
+      "weight": 1.0
+    },
+    "description": "A cape worn by a hero from Valinor, a land utterly beyond the strife of Elements.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 5,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Cloak",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "111",
+        "complexity": 5,
+        "message": "{name} glows many colours...",
+        "effect": "RESIST_ALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Cloak", "properName": "'Holcolleth'"},
+    "index": 45,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STEALTH"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 4,
+      "baseArmor": 1,
+      "weight": 1.0
+    },
+    "description": "This elven-grey mantle possesses great powers of tranquility and concealment, and grants the wearer the knowledge and understanding of the Sindar.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 5,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Cloak",
+    "flags": [
+      "RES_ACID"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "55",
+        "complexity": 5,
+        "message": "{name} glows deep blue...",
+        "effect": "SLEEPII"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Cloak", "properName": "Thingol"},
+    "index": 46,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "DEX",
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 18,
+      "baseArmor": 1,
+      "weight": 1.0
+    },
+    "description": "A translucent cloak of pearly grey with glowing, energized Elven runes showing calm and clear as moonlight on still water.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 5,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Cloak",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_FIRE",
+      "RES_COLD"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "70",
+        "complexity": 5,
+        "message": "Your {kind} glow{s} bright yellow...",
+        "effect": "RECHARGE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Cloak", "properName": "Thorongil"},
+    "index": 47,
+    "stats": {
+      "armorBonus": 10,
+      "baseArmor": 1,
+      "weight": 1.0
+    },
+    "description": "This shimmering cloak of greens and browns was once worn by the young Aragorn, a keen-eyed captain of Rohan and Gondor, valiant on both land and sea.",
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 5,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Cloak",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_FEAR",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 5
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Cloak", "properName": "'Colannon'"},
+    "index": 48,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STEALTH",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 15,
+      "baseArmor": 1,
+      "weight": 1.0
+    },
+    "description": "A crystal-blue cape of fine silk worn by a silent messenger of the forces of Law.  Seldom will its wearer be diverted from his mission.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 5,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Cloak",
+    "flags": [
+      "RES_NEXUS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "45",
+        "complexity": 5,
+        "message": "Your {kind} twist{s} space around you.",
+        "effect": "TELE_LONG"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Elven Cloak", "properName": "L\u00fathien"},
+    "index": 49,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "INT",
+          "WIS",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STEALTH"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 6,
+      "weight": 0.5
+    },
+    "description": "The opaque midnight folds of this cloak, inlaid with a multitude of tiny diamonds, swirl around you, and you feel a hint, a fragment of the restorative magics of L\u00fathien, the most beautiful being who ever knew death.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Elven Cloak",
+    "flags": [
+      "RES_ACID",
+      "RES_FIRE",
+      "RES_COLD"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "250",
+        "complexity": 40,
+        "message": "Your {kind} glow{s} a deep red...",
+        "effect": "RESTORE_LIFE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "cloak"],
+    "nameInfo": {"baseNoun": "Shadow Cloak", "properName": "Tuor"},
+    "index": 50,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "STEALTH",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 12,
+      "baseArmor": 6,
+      "weight": 0.0
+    },
+    "description": "From the ruin of Gondolin, through secret ways and travail, did Tuor escape, mantled by sea-commanding Ulmo's kingly gift from a multitude of hostile eyes.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Shadow Cloak",
+    "flags": [
+      "FREE_ACT",
+      "IM_ACID",
+      "RES_ACID",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "E\u00f6l"},
+    "categories": ["gauntlets"],
+    "index": 51,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "INT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.5,
+      "armorBonus": 14,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "The iron-shod gauntlets of the Dark Elven smith E\u00f6l, who imbued them with magics he could channel in battle.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 55,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "FREE_ACT",
+      "FEATHER",
+      "RES_ELEC",
+      "RES_DARK",
+      "RES_POIS",
+      "AGGRAVATE",
+      "IM_FIRE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "30+d30",
+        "complexity": 55,
+        "message": "Your {kind} glow{s} white...",
+        "effect": "MANA_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Leather Gloves", "properName": "'Cambeleg'"},
+    "categories": ["gloves"],
+    "index": 52,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 15,
+      "finesseBonus": 80,
+      "baseArmor": 1,
+      "weight": 0.5,
+      "prowessBonus": 80
+    },
+    "description": "A hero's handgear that lends great prowess in battle.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 10,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Set of Leather Gloves",
+    "flags": [
+      "FREE_ACT"
+    ],
+    "procs": [
+      {
+        "complexity": 10
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Leather Gloves", "properName": "'Cammithrim'"},
+    "categories": ["gloves"],
+    "index": 53,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 10,
+      "finesseBonus": 50,
+      "baseArmor": 1,
+      "weight": 0.5,
+      "prowessBonus": 50
+    },
+    "description": "These gloves glow so brightly as to light the way for the wearer and cast magical bolts with great frequency.",
+    "allocatorRules": [
+      {
+        "commonness": 0.12,
+        "minDepth": 10,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Set of Leather Gloves",
+    "flags": [
+      "FREE_ACT",
+      "RES_LIGHT",
+      "SUST_CON"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "2",
+        "complexity": 10,
+        "message": "{name} glows very brightly...",
+        "effect": "MISSILE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "'Paurhach'"},
+    "categories": ["gauntlets"],
+    "index": 54,
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.5,
+      "armorBonus": 14,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "A set of gauntlets that smoulder with an unnatural heat.",
+    "allocatorRules": [
+      {
+        "commonness": 0.26666666666666666,
+        "minDepth": 10,
+        "maxDepth": 60
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "RES_FIRE",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "8+d8",
+        "complexity": 1,
+        "message": "Your {kind} {is} covered in fire...",
+        "effect": "FIRE_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "'Paurnimmen'"},
+    "categories": ["gauntlets"],
+    "index": 55,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.5,
+      "armorBonus": 14,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "A set of handgear, freezing with unnatural cold.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "RES_COLD",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "7+d7",
+        "complexity": 20,
+        "message": "Your {kind} {is} covered in frost...",
+        "effect": "COLD_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "'Pauraegen'"},
+    "categories": ["gauntlets"],
+    "index": 56,
+    "mods": [
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.5,
+      "armorBonus": 14,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "A set of handgear with sparks that crackle across its knuckle guards.",
+    "allocatorRules": [
+      {
+        "commonness": 0.15333333333333332,
+        "minDepth": 10,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "RES_ELEC",
+      "RES_LIGHT"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "6+d6",
+        "complexity": 1,
+        "message": "Your {kind} {is} covered in sparks...",
+        "effect": "ELEC_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "'Paurnen'"},
+    "categories": ["gauntlets"],
+    "index": 57,
+    "stats": {
+      "armorBonus": 14,
+      "baseArmor": 3,
+      "weight": 2.5,
+      "dieSize": 1,
+      "finesseBonus": 30,
+      "numDice": 1,
+      "prowessBonus": 30
+    },
+    "description": "A set of gauntlets that give off a foul, acrid odor, yet remain untarnished.",
+    "allocatorRules": [
+      {
+        "commonness": 0.2,
+        "minDepth": 10,
+        "maxDepth": 60
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "RES_ACID",
+      "FEATHER"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "5+d5",
+        "complexity": 1,
+        "message": "Your {kind} {is} covered in acid...",
+        "effect": "ACID_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Gauntlets", "properName": "'Camlost'"},
+    "categories": ["gauntlets"],
+    "index": 58,
+    "mods": [
+      {
+        "bonus": -3,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "baseArmor": 3,
+      "weight": 2.5,
+      "dieSize": 1,
+      "finesseBonus": -12,
+      "numDice": 1,
+      "prowessBonus": -12
+    },
+    "description": "A pair of weakening gauntlets, named after Beren, who returned to Thingol having lost to Carcharoth the hand that clasped a Silmaril.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 10,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Set of Gauntlets",
+    "flags": [
+      "RES_FIRE",
+      "RES_DISEN",
+      "FREE_ACT",
+      "DRAIN_EXP",
+      "AGGRAVATE",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE"
+    ],
+    "procs": [
+      {
+        "complexity": 10
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hand armor"],
+    "nameInfo": {"modifierNoun": "Set of", "baseNoun": "Cesti", "properName": "Fingolfin"},
+    "categories": ["cesti"],
+    "index": 59,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 20,
+      "baseArmor": 5,
+      "weight": 4.0,
+      "dieSize": 1,
+      "finesseBonus": 100,
+      "numDice": 1,
+      "prowessBonus": 100
+    },
+    "description": "The hand-sheathing of Fingolfin, the Elven warrior-king, who dealt Morgoth seven mighty wounds and pain that will last until the end of Arda.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Set of Cesti",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "30+d30",
+        "complexity": 40,
+        "message": "Your {kind} grow{s} magical spikes...",
+        "effect": "ARROW"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Leather Boots", "properName": "F\u00ebanor"},
+    "index": 60,
+    "mods": [
+      {
+        "bonus": 15,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.5,
+      "armorBonus": 20,
+      "baseArmor": 3,
+      "numDice": 1
+    },
+    "description": "This wondrous pair of leather boots once sped F\u00ebanor, creator of the Silmarils and the mightiest of the Eldar, to fulfill his hero's challenge and do battle for a Middle-Earth held in thrall.  \"Dear-bought those songs shall be accounted, and yet shall be well-bought.  For the price could be no other.\"",
+    "allocatorRules": [
+      {
+        "commonness": 0.0026666666666666666,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Pair of Leather Boots",
+    "flags": [
+      "RES_NEXUS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200",
+        "complexity": 40,
+        "message": "Your {kind} glow{s} bright green...",
+        "effect": "HASTE1"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Leather Boots", "properName": "'Dal-i-thalion'"},
+    "index": 61,
+    "mods": [
+      {
+        "bonus": 5,
+        "flags": [
+          "DEX",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.0,
+      "armorBonus": 15,
+      "baseArmor": 2,
+      "numDice": 1
+    },
+    "description": "A pair of high-laced shoes, bestowing of extraordinary agility and proof against the powers of corruption and withering.",
+    "allocatorRules": [
+      {
+        "commonness": 0.016,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Pair of Leather Boots",
+    "flags": [
+      "FREE_ACT",
+      "RES_NETHR",
+      "RES_CONFU",
+      "SUST_CON"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "5",
+        "complexity": 10,
+        "message": "Your {kind} glow{s} deep blue...",
+        "effect": "REM_FEAR_POIS"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Steel Shod Boots", "properName": "Thr\u00f3r"},
+    "index": 62,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON",
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": -1,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 6.0,
+      "armorBonus": 20,
+      "baseArmor": 7,
+      "numDice": 1
+    },
+    "description": "Sturdy footwear of leather and steel as enduring as the long-suffering Dwarven king-in-exile who wore them.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Pair of Steel Shod Boots",
+    "flags": [
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Leather Boots", "properName": "Wormtongue"},
+    "index": 63,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "DEX",
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "baseArmor": 2,
+      "weight": 2.0,
+      "dieSize": 1,
+      "finesseBonus": -1,
+      "numDice": 1,
+      "prowessBonus": -1
+    },
+    "description": "A pair of running shoes once used by the treacherous Gr\u00edma son of G\u00e1lm\u00f3d, the Wormtongue of Edoras.  They are aptly suited for a messenger, a servant, a spy... or a coward.",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 15,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Pair of Leather Boots",
+    "flags": [
+      "FEATHER",
+      "LIGHT_CURSE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "20",
+        "complexity": 10,
+        "message": "Your {kind} twist{s} space around you.",
+        "effect": "TELE_PHASE"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Main Gauche", "properName": "Maedhros"},
+    "index": 64,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "INT",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "weight": 3.0,
+      "dieSize": 5,
+      "finesseBonus": 120,
+      "numDice": 2,
+      "prowessBonus": 150,
+      "balance": 0.75
+    },
+    "description": "A short thrusting blade with a large guard worn by the eldest son of F\u00ebanor, Maedhros the Tall, who lost his right hand while escaping from Angband.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 15,
+        "maxDepth": 65
+      }
+    ],
+    "subtype": "Main Gauche",
+    "flags": [
+      "FREE_ACT",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 15
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "'Angrist'"},
+    "index": 65,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ACID"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "armorBonus": 5,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 150,
+      "balance": 0.8
+    },
+    "description": "Forged by Telchar, greatest of Dwarven smiths, and used by Beren to gouge a Silmaril out of Morgoth's crown, this long chopping dagger slices through ordinary metal as easily as its name, \"Iron Cleaver\", suggests.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_ACID",
+      "FREE_ACT",
+      "RES_DARK",
+      "SUST_DEX"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "'Narthanc'"},
+    "index": 66,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 40,
+      "numDice": 1,
+      "prowessBonus": 60,
+      "balance": 0.8
+    },
+    "description": "Instead of a blade, a flame seems to emerge from this dagger's hilt.",
+    "allocatorRules": [
+      {
+        "commonness": 0.26666666666666666,
+        "minDepth": 1,
+        "maxDepth": 50
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_FIRE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "8+d8",
+        "complexity": 1,
+        "message": "{name} is covered in fire...",
+        "effect": "FIRE_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "'Nimthanc'"},
+    "index": 67,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 40,
+      "numDice": 1,
+      "prowessBonus": 60,
+      "balance": 0.8
+    },
+    "description": "From the hilt of this dagger springs not so much a blade as an icicle.",
+    "allocatorRules": [
+      {
+        "commonness": 0.26666666666666666,
+        "minDepth": 1,
+        "maxDepth": 50
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_COLD"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "7+d8",
+        "complexity": 1,
+        "message": "{name} is covered in frost...",
+        "effect": "COLD_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "'Dethanc'"},
+    "index": 68,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ELEC"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 40,
+      "numDice": 1,
+      "prowessBonus": 60,
+      "balance": 0.8
+    },
+    "description": "In this dagger is bound the very force of lightning.",
+    "allocatorRules": [
+      {
+        "commonness": 0.26666666666666666,
+        "minDepth": 1,
+        "maxDepth": 50
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_ELEC"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "6+d6",
+        "complexity": 1,
+        "message": "{name} is covered in sparks...",
+        "effect": "ELEC_BOLT"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "Rilia"},
+    "index": 69,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS",
+          "SLAY_ORC",
+          "SLAY_TROLL"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 140,
+      "numDice": 2,
+      "prowessBonus": 130,
+      "balance": 0.8
+    },
+    "description": "A large stiletto dagger that glistens with odorless poison, to which the wearer seems oddly immune.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 5,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_POIS",
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "4+d4",
+        "complexity": 5,
+        "message": "{name} throws deep green shadows...",
+        "effect": "STINKING_CLOUD"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Dagger", "properName": "'Belangil'"},
+    "index": 70,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 1.2,
+      "dieSize": 4,
+      "finesseBonus": 160,
+      "numDice": 3,
+      "prowessBonus": 140,
+      "balance": 0.8
+    },
+    "description": "A frosty dagger wreathed in a nimbus of ice with a hilt of elk horn andan edge to wound the wind.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 10,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Dagger",
+    "flags": [
+      "RES_COLD",
+      "SEE_INVIS",
+      "SLOW_DIGEST",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "5+d5",
+        "complexity": 10,
+        "message": "Your {kind} {is} covered in frost...",
+        "effect": "COLD_BALL50"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Bastard Sword", "properName": "'Calris'"},
+    "index": 71,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DEMON",
+          "SLAY_TROLL"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 14.0,
+      "dieSize": 4,
+      "finesseBonus": -20,
+      "numDice": 5,
+      "prowessBonus": 20,
+      "balance": 0.55
+    },
+    "description": "This sword has runes of power incused on its ornate hilt, and a singleblood channel that gleams coldly blue as you grasp this mighty weapon ofperil.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Bastard Sword",
+    "flags": [
+      "RES_DISEN",
+      "AGGRAVATE",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Broad Sword", "properName": "'Aranr\u00fath'"},
+    "index": 72,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DEMON",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.65,
+      "weight": 15.0,
+      "dieSize": 5,
+      "finesseBonus": 200,
+      "numDice": 3,
+      "prowessBonus": 120,
+      "balance": 0.4
+    },
+    "description": "The beautiful sword of Thingol, justly named \"King's Ire\".  It glistens icy enough to freeze the hearts of demons, and you feel supple and lightfooted as you clasp its hilt of gold and silver inlay.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Broad Sword",
+    "flags": [
+      "FREE_ACT",
+      "RES_COLD",
+      "FEATHER",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 20,
+        "message": "{name} glows a pale blue...",
+        "effect": "COLD_BOLT2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Broad Sword", "properName": "'Glamdring'"},
+    "index": 73,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_ORC",
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "SEARCH",
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.65,
+      "weight": 15.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 150,
+      "balance": 0.4
+    },
+    "description": "This fiery, shining blade, mate to Orcrist, earned its sobriquet \"Beater\" from dying orcs who dared to behold hidden Gondolin.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Broad Sword",
+    "flags": [
+      "BLESSED",
+      "RES_FIRE",
+      "RES_LIGHT",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Broad Sword", "properName": "'Aeglin'"},
+    "index": 74,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ELEC",
+          "SLAY_ORC",
+          "SLAY_TROLL",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "SEARCH",
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.65,
+      "weight": 15.0,
+      "dieSize": 5,
+      "finesseBonus": 120,
+      "numDice": 2,
+      "prowessBonus": 160,
+      "balance": 0.4
+    },
+    "description": "Like unto Orcrist and Glamdring, and like them long lost, this sword is continually covered in tiny arcs of captive lightning that flash and dance eerily in the globes of light they create.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Broad Sword",
+    "flags": [
+      "BLESSED",
+      "RES_ELEC",
+      "RES_BLIND",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Broad Sword", "properName": "'Orcrist'"},
+    "index": 75,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "SLAY_ORC",
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "SEARCH"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.65,
+      "weight": 15.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 150,
+      "balance": 0.4
+    },
+    "description": "This coldly gleaming blade, mate to Glamdring, is called simply \"Biter\" by orcs who came to know its power all too well.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Broad Sword",
+    "flags": [
+      "BLESSED",
+      "RES_COLD",
+      "RES_DARK",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Zweihander", "properName": "'Gurthang'"},
+    "index": 76,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "BRAND_POIS"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 20.0,
+      "dieSize": 6,
+      "finesseBonus": 130,
+      "numDice": 3,
+      "prowessBonus": 170,
+      "balance": 0.3
+    },
+    "description": "A giant sword once wielded by mighty T\u00farin, and an even greater dragonbane; for what wyrm could stand against the blade that bathed in Glaurung's blood?",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Zweihander",
+    "flags": [
+      "RES_FIRE",
+      "RES_POIS",
+      "FREE_ACT",
+      "SLOW_DIGEST",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Zweihander", "properName": "'Zarcuthra'"},
+    "index": 77,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL",
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_UNDEAD",
+          "SLAY_DEMON",
+          "SLAY_TROLL",
+          "SLAY_GIANT",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "CHR",
+          "INFRA"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 24.0,
+      "dieSize": 6,
+      "finesseBonus": 190,
+      "numDice": 4,
+      "prowessBonus": 210,
+      "balance": 0.3
+    },
+    "description": "Runes dark and deadly stand stark against the naked steel of this awesome weapon, and you feel a wrathful power of slaying and rending as you slowly approach.",
+    "allocatorRules": [
+      {
+        "commonness": 0.006666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Zweihander",
+    "flags": [
+      "RES_FIRE",
+      "RES_CHAOS",
+      "FREE_ACT",
+      "SEE_INVIS",
+      "AGGRAVATE"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Zweihander", "properName": "'Mormegil'"},
+    "index": 78,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS",
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": -10,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "armorBonus": -10,
+      "weight": 25.0,
+      "dieSize": 6,
+      "finesseBonus": -15,
+      "numDice": 3,
+      "prowessBonus": -15,
+      "balance": 0.3
+    },
+    "description": "A foul, twisted sword with blackened spines and knobs, its very name is a curse upon the lips of Elves and Men.  It is said that it will drink the very lifeblood of its wielder.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Zweihander",
+    "flags": [
+      "SEE_INVIS",
+      "HOLD_LIFE",
+      "AGGRAVATE",
+      "DRAIN_EXP",
+      "LIGHT_CURSE",
+      "HEAVY_CURSE"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Cutlass", "properName": "'Gondricam'"},
+    "index": 79,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.45,
+      "armorBonus": 50,
+      "weight": 11.0,
+      "dieSize": 8,
+      "finesseBonus": 100,
+      "numDice": 1,
+      "prowessBonus": 110,
+      "balance": 0.6
+    },
+    "description": "Famed sea-defender of Lebennin.  A short, slightly curved chopping blade with a perfect edge shining cleanly in the sun, an object of hate to the men of Umbar who met it in combat.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 20,
+        "maxDepth": 65
+      }
+    ],
+    "subtype": "Cutlass",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "FEATHER",
+      "SEE_INVIS",
+      "REGEN",
+      "FREE_ACT"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Executioner's Sword", "properName": "'Crisdurian'"},
+    "index": 80,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DRAGON",
+          "SLAY_UNDEAD",
+          "SLAY_TROLL",
+          "SLAY_GIANT",
+          "SLAY_ORC"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 26.0,
+      "dieSize": 5,
+      "finesseBonus": 180,
+      "numDice": 4,
+      "prowessBonus": 190,
+      "balance": 0.3
+    },
+    "description": "A giant's weapon, with a long blade tall and straight thrusting out from a massive double-pronged hilt.  On its blade are written doomspells against both the living and undead.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Executioner's Sword",
+    "flags": [
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Katana", "properName": "'Aglarang'"},
+    "index": 81,
+    "mods": [
+      {
+        "bonus": 5,
+        "flags": [
+          "SPEED",
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "BLOWS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.4,
+      "weight": 5.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 6,
+      "prowessBonus": 100,
+      "balance": 0.65
+    },
+    "description": "An utterly perfect, cleanly chiseled sword, with an edge that effortlessly slices rock and bone, and spells to render the wearer lithe and nimble.  It is combat incarnate.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Katana",
+    "flags": [
+      "SUST_DEX"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Long Sword", "properName": "'Ringil'"},
+    "index": 82,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "SLAY_UNDEAD",
+          "SLAY_DEMON",
+          "SLAY_TROLL"
+        ]
+      },
+      {
+        "bonus": 10,
+        "flags": [
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 13.0,
+      "dieSize": 5,
+      "finesseBonus": 220,
+      "numDice": 4,
+      "prowessBonus": 250,
+      "balance": 0.55
+    },
+    "description": "The weapon of Fingolfin, High King of the Noldor; it shines like a column of ice lit by light unquenchable.  Morgoth came but unwillingly to meet it of old; his lame foot will remind him of its might should he face it again.",
+    "allocatorRules": [
+      {
+        "commonness": 0.004,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Long Sword",
+    "flags": [
+      "RES_FEAR",
+      "BLESSED",
+      "FREE_ACT",
+      "RES_COLD",
+      "RES_LIGHT",
+      "SEE_INVIS",
+      "SLOW_DIGEST",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "40",
+        "complexity": 20,
+        "message": "{name} glows an intense blue...",
+        "effect": "COLD_BALL100"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Long Sword", "properName": "'And\u00faril'"},
+    "index": 83,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_TROLL",
+          "SLAY_ORC",
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "armorBonus": 10,
+      "weight": 13.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 3,
+      "prowessBonus": 150,
+      "balance": 0.55
+    },
+    "description": "The famed \"Flame of the West\", the Sword that was Broken and is forged again.  It glows with the essence of fire, its wearer is mighty in combat, and no creature of Sauron can withstand it.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Long Sword",
+    "flags": [
+      "RES_FEAR",
+      "FREE_ACT",
+      "BLESSED",
+      "RES_FIRE",
+      "RES_DISEN",
+      "SUST_STR",
+      "SUST_DEX",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "40",
+        "complexity": 20,
+        "message": "{name} rages in fire...",
+        "effect": "FIRE_BOLT72"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Long Sword", "properName": "'Anguirel'"},
+    "index": 84,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS",
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "BLOWS",
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 13.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 120,
+      "balance": 0.55
+    },
+    "description": "Forged of meteoric iron by E\u00f6l the Dark Elf, and as deadly as any other blade he forged.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Long Sword",
+    "flags": [
+      "AGGRAVATE",
+      "FREE_ACT",
+      "RES_ELEC",
+      "RES_LIGHT",
+      "RES_DARK",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Long Sword", "properName": "'Elvagil'"},
+    "index": 85,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "DEX",
+          "CHR",
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 13.0,
+      "dieSize": 5,
+      "finesseBonus": 120,
+      "numDice": 2,
+      "prowessBonus": 120,
+      "balance": 0.55
+    },
+    "description": "The \"Singing Blade\", whose wearer can slay Orcs and Trolls in the hidden and secret places of the earth.",
+    "allocatorRules": [
+      {
+        "commonness": 0.3333333333333333,
+        "minDepth": 10,
+        "maxDepth": 50
+      }
+    ],
+    "subtype": "Long Sword",
+    "flags": [
+      "FEATHER",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 1
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Rapier", "properName": "'Forasgil'"},
+    "index": 86,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.1,
+      "weight": 4.0,
+      "dieSize": 6,
+      "finesseBonus": 120,
+      "numDice": 1,
+      "prowessBonus": 190,
+      "balance": 0.9
+    },
+    "description": "A slender, tapered needle of ice that coldly grips its impaled prey.",
+    "allocatorRules": [
+      {
+        "commonness": 0.25333333333333335,
+        "minDepth": 5,
+        "maxDepth": 50
+      }
+    ],
+    "subtype": "Rapier",
+    "flags": [
+      "RES_COLD",
+      "RES_LIGHT"
+    ],
+    "procs": [
+      {
+        "complexity": 1
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Sabre", "properName": "'Careth Asdriag'"},
+    "index": 87,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DRAGON",
+          "SLAY_TROLL",
+          "SLAY_GIANT",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "BLOWS"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "DEX",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.6,
+      "weight": 4.0,
+      "dieSize": 6,
+      "finesseBonus": 160,
+      "numDice": 2,
+      "prowessBonus": 120,
+      "balance": 0.45
+    },
+    "description": "An heirloom of the dauntless Lords of Rh\u00fbn far to the east, and a name of dismay to creatures natural and unnatural.",
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 15,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Sabre",
+    "procs": [
+      {
+        "complexity": 15
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Short Sword", "properName": "'Sting'"},
+    "index": 88,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL",
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_UNDEAD",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "BLOWS"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "STR",
+          "DEX",
+          "CON",
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 7.5,
+      "dieSize": 7,
+      "finesseBonus": 70,
+      "numDice": 1,
+      "prowessBonus": 80,
+      "balance": 0.55
+    },
+    "description": "\"I will give you a name, and I shall call you Sting.\"  The perfect size for Bilbo, and stamped forever by the courage he found in Mirkwood, this sturdy little blade grants the wearer combat prowess and survival abilities he did not know he had.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Short Sword",
+    "flags": [
+      "RES_FEAR",
+      "FREE_ACT",
+      "RES_LIGHT",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Scimitar", "properName": "'Haradekket'"},
+    "index": 89,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL",
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "DEX",
+          "BLOWS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.65,
+      "weight": 13.0,
+      "dieSize": 2,
+      "finesseBonus": 90,
+      "numDice": 4,
+      "prowessBonus": 110,
+      "balance": 0.4
+    },
+    "description": "A damascened scimitar that hefts with wondrous ease.  Famed in song as the \"Sickle of Harad\", and a deadly foe to the undead.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Scimitar",
+    "flags": [
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Short Sword", "properName": "'Dagmor'"},
+    "index": 90,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "BLOWS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 8.0,
+      "dieSize": 7,
+      "finesseBonus": 130,
+      "numDice": 1,
+      "prowessBonus": 110,
+      "balance": 0.55
+    },
+    "description": "A stubby blade worn by Beren, whose horn sounded of old in the glades of Brethil.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Short Sword",
+    "flags": [
+      "SLOW_DIGEST",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Blade of Chaos", "properName": "'Doomcaller'"},
+    "index": 91,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL",
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_DEMON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.5,
+      "armorBonus": -50,
+      "weight": 18.0,
+      "dieSize": 5,
+      "finesseBonus": 180,
+      "numDice": 6,
+      "prowessBonus": 280,
+      "balance": 0.55
+    },
+    "description": "This weapon of wrath, wrought by a desperate berserker gang, dives hungrily into the yielding flesh of your enemies.  You yourself fall under the shadow of death even as you inflict wounds that will not heal.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Blade of Chaos",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_CHAOS",
+      "SEE_INVIS",
+      "TELEPATHY",
+      "AGGRAVATE"
+    ],
+    "procs": [
+      {
+        "complexity": 70
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Spear", "properName": "Melkor"},
+    "index": 92,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS"
+        ]
+      },
+      {
+        "bonus": -4,
+        "flags": [
+          "STEALTH",
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "weight": 20.0,
+      "dieSize": 6,
+      "finesseBonus": -12,
+      "numDice": 4,
+      "prowessBonus": 20,
+      "balance": 0.75
+    },
+    "description": "A mighty, heavy black spear, once wielded by the Lord of Darkness himself as he came to Valinor in wrath.  Its envenomed bite pierced the Two Trees with wounds that would not heal.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 65,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Spear",
+    "flags": [
+      "LIGHT_CURSE",
+      "HEAVY_CURSE",
+      "DRAIN_EXP",
+      "AGGRAVATE",
+      "RES_DARK",
+      "RES_BLIND",
+      "RES_LIGHT",
+      "RES_NETHR"
+    ],
+    "procs": [
+      {
+        "complexity": 65
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Beaked Axe", "properName": "Th\u00e9oden"},
+    "index": 93,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "WIS",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 18.0,
+      "dieSize": 6,
+      "finesseBonus": 80,
+      "numDice": 2,
+      "prowessBonus": 100,
+      "balance": 0.55
+    },
+    "description": "The narrow axe head of this weapon would pierce the armor of a very Dragon, and the designs of your enemies stand naked and revealed.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Beaked Axe",
+    "flags": [
+      "TELEPATHY",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "40",
+        "complexity": 20,
+        "message": "Your {kind} glow{s} black...",
+        "effect": "DRAIN_LIFE2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Glaive", "properName": "Pain"},
+    "index": 94,
+    "stats": {
+      "heft": 0.25,
+      "weight": 30.0,
+      "dieSize": 6,
+      "prowessBonus": 300,
+      "numDice": 9,
+      "balance": 0.75
+    },
+    "description": "The massive cleaver that crowns this glaive glows blood-red and black; fell spells of annihilation swirl and dance as you swing death's myrmidon down.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Glaive",
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Halberd", "properName": "'Osondir'"},
+    "index": 95,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_UNDEAD",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 14.0,
+      "dieSize": 5,
+      "finesseBonus": 160,
+      "numDice": 3,
+      "prowessBonus": 120,
+      "balance": 0.3
+    },
+    "description": "Lordly and tall did Osondir stand against the wrath of giants, and clear-eyed in barrows fell, wielding a halberd glowing ruby red.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 25,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Halberd",
+    "flags": [
+      "BLESSED",
+      "RES_FIRE",
+      "RES_SOUND",
+      "FEATHER",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Pike", "properName": "'Til-i-arc'"},
+    "index": 96,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "BRAND_FIRE",
+          "SLAY_DEMON",
+          "SLAY_TROLL",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "INT"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.45,
+      "armorBonus": 10,
+      "weight": 16.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 3,
+      "prowessBonus": 120,
+      "balance": 0.6
+    },
+    "description": "Within this long two-handed spear dwell the spirits of frost giants and fire demons, who war forever, fettered by sorcerous binds.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Pike",
+    "flags": [
+      "RES_FIRE",
+      "RES_COLD",
+      "SUST_INT",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Spear", "properName": "'Aeglos'"},
+    "index": 97,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "armorBonus": 5,
+      "weight": 5.0,
+      "dieSize": 6,
+      "finesseBonus": 150,
+      "numDice": 3,
+      "prowessBonus": 250,
+      "balance": 0.75
+    },
+    "description": "The mighty spear of Gil-galad, famed as \"Snow-point\" in the songs of Elves.  Against it, all the foul corruptions of Sauron dashed in vain.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 15,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Spear",
+    "flags": [
+      "RES_FEAR",
+      "RES_COLD",
+      "FREE_ACT",
+      "SLOW_DIGEST",
+      "BLESSED"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "35",
+        "complexity": 15,
+        "message": "{name} glows an intense blue...",
+        "effect": "COLD_BALL100"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Spear", "properName": "Orom\u00eb"},
+    "index": 98,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "INT",
+          "SPEED",
+          "INFRA"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "weight": 5.0,
+      "dieSize": 6,
+      "finesseBonus": 150,
+      "numDice": 4,
+      "prowessBonus": 150,
+      "balance": 0.75
+    },
+    "description": "The thrusting spear of wise Orom\u00eb the Vala, strong against giants of frost, and able to pierce rock or flesh with ease.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 15,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Spear",
+    "flags": [
+      "RES_FIRE",
+      "RES_LIGHT",
+      "FEATHER",
+      "SEE_INVIS",
+      "BLESSED"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "5",
+        "complexity": 15,
+        "message": "Your {kind} pulsate{s}...",
+        "effect": "STONE_TO_MUD"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Spear", "properName": "'Nimloth'"},
+    "index": 99,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STEALTH",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "weight": 5.0,
+      "dieSize": 6,
+      "finesseBonus": 110,
+      "numDice": 1,
+      "prowessBonus": 130,
+      "balance": 0.75
+    },
+    "description": "A thin spike of thrice-forged steel caps a straight silvan shaft cut from a legendary tree, and spells to break the wills of the undead and strike cold into the breasts of your enemies lay upon this perfectly balanced spear.",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 15,
+        "maxDepth": 65
+      }
+    ],
+    "subtype": "Spear",
+    "flags": [
+      "BLESSED",
+      "RES_COLD",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 15
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Lance", "properName": "the Eorlingas"},
+    "index": 100,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "DEX",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.8,
+      "weight": 36.0,
+      "dieSize": 8,
+      "finesseBonus": 130,
+      "numDice": 3,
+      "prowessBonus": 210,
+      "balance": 0.2
+    },
+    "description": "\"Forth Eorlingas!\"  To the field of Celebrant, Eorl the Young came beyond hope to save beleaguered Gondor, and from his lance fled massive trolls and dire wolves.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Lance",
+    "flags": [
+      "RES_FEAR",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Great Axe", "properName": "Durin"},
+    "index": 101,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ACID"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DEMON",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "TUNNEL"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": -1,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.9,
+      "armorBonus": 15,
+      "weight": 23.0,
+      "dieSize": 4,
+      "finesseBonus": 100,
+      "numDice": 4,
+      "prowessBonus": 200,
+      "balance": 0.1
+    },
+    "description": "The twin massive axe heads of this ancient demon's dread gleam with mithril inlay telling sagas of endurance.  The powers of Khazad-d\u00fbm protect its wielder and slay all evils found underground.",
+    "allocatorRules": [
+      {
+        "commonness": 0.006666666666666667,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Great Axe",
+    "flags": [
+      "FREE_ACT",
+      "RES_FEAR",
+      "RES_ACID",
+      "RES_FIRE",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_CHAOS"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Great Axe", "properName": "E\u00f6nw\u00eb"},
+    "index": 102,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD",
+          "SLAY_UNDEAD",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "INT",
+          "WIS",
+          "DEX",
+          "CON",
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.9,
+      "armorBonus": 8,
+      "weight": 23.0,
+      "dieSize": 4,
+      "finesseBonus": 150,
+      "numDice": 5,
+      "prowessBonus": 180,
+      "balance": 0.1
+    },
+    "description": "The axe of E\u00f6nw\u00eb, leader of the Hosts of the West in the War of Wrath, strikes with icy wrath at the undead, disperses hosts of evil at a word, and grants Maia-like powers of body and mind.",
+    "allocatorRules": [
+      {
+        "commonness": 0.006666666666666667,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Great Axe",
+    "flags": [
+      "RES_FEAR",
+      "FREE_ACT",
+      "IM_COLD",
+      "RES_COLD",
+      "SEE_INVIS",
+      "BLESSED"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "1000",
+        "complexity": 30,
+        "message": "Your {kind} let{s} out a long, shrill note...",
+        "effect": "LOSKILL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Battle Axe", "properName": "Balli Stonehand"},
+    "index": 103,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DEMON",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "armorBonus": 5,
+      "weight": 17.0,
+      "dieSize": 8,
+      "finesseBonus": 80,
+      "numDice": 3,
+      "prowessBonus": 110,
+      "balance": 0.3
+    },
+    "description": "The twin blades of this weapon were forged in Belegost, and powerful forces to resist and endure lie ready for he who shall wield it once more.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Battle Axe",
+    "flags": [
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_BLIND",
+      "FEATHER",
+      "SEE_INVIS",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Battle Axe", "properName": "'Lotharang'"},
+    "index": 104,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "BLOWS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 17.0,
+      "dieSize": 8,
+      "finesseBonus": 140,
+      "numDice": 2,
+      "prowessBonus": 130,
+      "balance": 0.3
+    },
+    "description": "A superbly crafted double-bladed axe once borne by Ceruthain, commander of the Rangers of Arnor.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Battle Axe",
+    "flags": [
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "3+d3",
+        "complexity": 30,
+        "message": "Your {kind} radiate{s} deep purple...",
+        "effect": "CURE_SERIOUS"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Lochaber Axe", "properName": "'Mundwine'"},
+    "index": 105,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL",
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DEMON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.8,
+      "weight": 24.0,
+      "dieSize": 8,
+      "finesseBonus": 120,
+      "numDice": 3,
+      "prowessBonus": 170,
+      "balance": 0.2
+    },
+    "description": "A massive axe with twin razor-sharp heads, so large that it usually requires two hands to wield, with spells to ward off the elements intricately engraved upon its surface in filleted gold.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Lochaber Axe",
+    "flags": [
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Broad Axe", "properName": "'Barukkheled'"},
+    "index": 106,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_GIANT",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 16.0,
+      "dieSize": 6,
+      "finesseBonus": 130,
+      "numDice": 2,
+      "prowessBonus": 190,
+      "balance": 0.3
+    },
+    "description": "A royal heirloom of the southern coast, strong in combat against the evil creatures of earth.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 20,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Broad Axe",
+    "flags": [
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Trident", "properName": "Wrath"},
+    "index": 107,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.3,
+      "weight": 7.0,
+      "dieSize": 10,
+      "finesseBonus": 160,
+      "numDice": 3,
+      "prowessBonus": 180,
+      "balance": 0.7
+    },
+    "description": "A massive triple-pronged spear, so great it normally requires two hands to wield, evoking the spirit of Osse who with it pierced legions of evil and undead.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 15,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Trident",
+    "flags": [
+      "RES_LIGHT",
+      "RES_DARK",
+      "SEE_INVIS",
+      "BLESSED"
+    ],
+    "procs": [
+      {
+        "complexity": 15
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Trident", "properName": "Ulmo"},
+    "index": 108,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "DEX"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 7.0,
+      "dieSize": 10,
+      "finesseBonus": 150,
+      "numDice": 4,
+      "prowessBonus": 190,
+      "balance": 0.3
+    },
+    "description": "The awesome weapon of the Vala Ulmo, Lord of Waters.  Mightiest of all the powers of good save Manw\u00eb himself, Ulmo laughs to scorn the dread powers of the undead, and is utterly in command of the Element of water.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Trident",
+    "flags": [
+      "FREE_ACT",
+      "HOLD_LIFE",
+      "IM_ACID",
+      "RES_ACID",
+      "RES_NETHR",
+      "SEE_INVIS",
+      "SLOW_DIGEST",
+      "REGEN",
+      "BLESSED"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 30,
+        "message": "Your {kind} glow{s} deep red...",
+        "effect": "TELE_OTHER"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Scythe", "properName": "'Avavir'"},
+    "index": 109,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "DEX",
+          "CHR",
+          "SPEED"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "armorBonus": 30,
+      "weight": 18.0,
+      "dieSize": 3,
+      "finesseBonus": 180,
+      "numDice": 5,
+      "prowessBonus": 120,
+      "balance": 0.55
+    },
+    "description": "Holding elemental powers whose struggles turn this weapon red and purest white, this shining reaper bears within it a power of going forth and returning.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 45,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Scythe",
+    "flags": [
+      "FREE_ACT",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_LIGHT",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "200",
+        "complexity": 40,
+        "message": "{name} pulses a soft white.",
+        "effect": "RECALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "polearm"],
+    "nameInfo": {"baseNoun": "Beaked Axe", "properName": "H\u00farin"},
+    "index": 110,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ACID",
+          "SLAY_DRAGON",
+          "SLAY_TROLL"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 18.0,
+      "dieSize": 6,
+      "finesseBonus": 120,
+      "numDice": 3,
+      "prowessBonus": 150,
+      "balance": 0.55
+    },
+    "description": "Wielded by H\u00farin Thalion, last lord of Dor-L\u00f3min at the Battle of Tears Unnumbered.  He stood alone, his friends and kinsmen dead about him, his axe smoking in the black blood of Gothmog's troll-guard.  No less than seventy times, as he slew his foes, did he utter his mighty war-cry: \"Aur\u00eb entuluva!\" - \"Day shall come again!\"",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Beaked Axe",
+    "flags": [
+      "RES_ACID",
+      "RES_DARK",
+      "RES_FIRE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "80+d80",
+        "complexity": 20,
+        "message": "{name} glows in anger!",
+        "effect": "BERSERKER"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Mighty Hammer", "properName": "'Grond'"},
+    "index": 111,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL",
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_UNDEAD",
+          "SLAY_DEMON",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 1,
+      "armorBonus": 10,
+      "weight": 100.0,
+      "dieSize": 9,
+      "finesseBonus": 50,
+      "numDice": 9,
+      "prowessBonus": 250,
+      "balance": 0
+    },
+    "description": "The mighty Hammer of the Underworld, blackened by doomspells of shattering.  Its wielder holds the lives of all Morgoth's servants in his hand.",
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.0,
+        "minDepth": 100,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Mighty Hammer",
+    "flags": [
+      "IMPACT",
+      "SEE_INVIS",
+      "TELEPATHY",
+      "AGGRAVATE"
+    ],
+    "display": {
+      "ascii": {
+        "color": [
+          96,
+          96,
+          96
+        ]
+      }
+    },
+    "procs": [
+      {
+        "complexity": 100
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Flail", "properName": "'Totila'"},
+    "index": 112,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STEALTH",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.7,
+      "weight": 15.0,
+      "dieSize": 6,
+      "finesseBonus": 160,
+      "numDice": 3,
+      "prowessBonus": 120,
+      "balance": 0.3
+    },
+    "description": "A flail whose head befuddles those who stare as you whirl it round and becomes a fiery comet as you bring it down.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 20,
+        "maxDepth": 65
+      }
+    ],
+    "subtype": "Flail",
+    "flags": [
+      "RES_FIRE",
+      "RES_CONFU"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "15",
+        "complexity": 20,
+        "message": "{name} glows in scintillating colours...",
+        "effect": "CONFUSE2"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Two-Handed Great Flail", "properName": "'Thunderfist'"},
+    "index": 113,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "BRAND_ELEC",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.9,
+      "weight": 30.0,
+      "dieSize": 6,
+      "finesseBonus": 50,
+      "numDice": 4,
+      "prowessBonus": 180,
+      "balance": 0.1
+    },
+    "description": "The long-lost weapon of Kzurin, Dwarven champion of ancient Belegost Runes of strength adorn its handle, and flames and sparks roar and crackle around its massive head.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 45,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Two-Handed Great Flail",
+    "flags": [
+      "RES_FEAR",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "complexity": 45
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Morning Star", "properName": "'Bloodspike'"},
+    "index": 114,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_POIS"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.85,
+      "weight": 15.0,
+      "dieSize": 6,
+      "finesseBonus": 80,
+      "numDice": 2,
+      "prowessBonus": 220,
+      "balance": 0.15
+    },
+    "description": "You feel strong and firm of foot as you whip its spiked orb around and bathe it in the blood of your foes.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 20,
+        "maxDepth": 75
+      }
+    ],
+    "subtype": "Morning Star",
+    "flags": [
+      "RES_NEXUS",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Morning Star", "properName": "'Firestar'"},
+    "index": 115,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.85,
+      "armorBonus": 2,
+      "weight": 15.0,
+      "dieSize": 6,
+      "finesseBonus": 150,
+      "numDice": 2,
+      "prowessBonus": 170,
+      "balance": 0.15
+    },
+    "description": "A famed battle-lord of old with a head as ruddy as embers that can yet rise up in wrath.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Morning Star",
+    "flags": [
+      "IM_FIRE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "20",
+        "complexity": 20,
+        "message": "{name} rages in fire...",
+        "effect": "FIRE_BOLT72"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Mace", "properName": "'Taratol'"},
+    "index": 116,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ELEC"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.75,
+      "weight": 20.0,
+      "dieSize": 4,
+      "finesseBonus": 120,
+      "numDice": 3,
+      "prowessBonus": 120,
+      "balance": 0.25
+    },
+    "description": "A great ridged mace that surrounds you with a nimbus of living lightning.  You remain utterly untouched, even as fat sparks crackle around your fingers and eyebrows.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Mace",
+    "flags": [
+      "IM_ELEC"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "100+d100",
+        "complexity": 20,
+        "message": "{name} glows bright green...",
+        "effect": "HASTE1"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Great Hammer", "properName": "Aul\u00eb"},
+    "index": 117,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ACID",
+          "SLAY_UNDEAD",
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 8,
+        "flags": [
+          "TUNNEL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.9,
+      "armorBonus": 5,
+      "weight": 12.0,
+      "dieSize": 1,
+      "finesseBonus": 190,
+      "numDice": 18,
+      "prowessBonus": 210,
+      "balance": 0.1
+    },
+    "description": "The wondrous hammer of Aul\u00eb, creator of the wise Dwarven lords of old.  It bears demolishing magics that no serpent or demon can withstand, and invokes the strength of mountains to ward off the tumult of the elements.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Great Hammer",
+    "flags": [
+      "RES_FEAR",
+      "FREE_ACT",
+      "RES_ACID",
+      "RES_ELEC",
+      "RES_FIRE",
+      "RES_COLD",
+      "RES_NEXUS",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Quarterstaff", "properName": "'Nar-i-vagil'"},
+    "index": 118,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "INT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 15.0,
+      "dieSize": 9,
+      "finesseBonus": 100,
+      "numDice": 1,
+      "prowessBonus": 200,
+      "balance": 0.55
+    },
+    "description": "Named for a fiery star and set with priceless gems bearing mystic auras of protection and thought.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 20,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Quarterstaff",
+    "flags": [
+      "RES_FIRE",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "complexity": 20
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Quarterstaff", "properName": "'Eriril'"},
+    "index": 119,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 15.0,
+      "dieSize": 9,
+      "finesseBonus": 130,
+      "numDice": 1,
+      "prowessBonus": 150,
+      "balance": 0.55
+    },
+    "description": "The radiant golden staff of an Istar of legend; this wizard's companion grants keen sight and clear knowledge of many hidden things.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Quarterstaff",
+    "flags": [
+      "RES_LIGHT",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "10",
+        "complexity": 20,
+        "message": "Your {kind} glow{s} yellow...",
+        "effect": "IDENTIFY"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Quarterstaff", "properName": "Ol\u00f3rin"},
+    "index": 120,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_TROLL",
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "INT",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "CHR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 15.0,
+      "dieSize": 9,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 130,
+      "balance": 0.55
+    },
+    "description": "A staff tall and sturdy, borne of old by Gandalf.  Rough-hewn runes that invoke the element of Earth stand bold upon its gnarled surface, and no creature who lives in the shadow of mountains can withstand the blows it deals.",
+    "allocatorRules": [
+      {
+        "commonness": 0.01,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Quarterstaff",
+    "flags": [
+      "HOLD_LIFE",
+      "RES_FIRE",
+      "RES_NETHR",
+      "SEE_INVIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "20",
+        "complexity": 30,
+        "message": "{name} glows brightly...",
+        "effect": "PROBING"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Mace of Disruption", "properName": "'Deathwreaker'"},
+    "index": 121,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL",
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 6,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "TUNNEL"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.95,
+      "weight": 40.0,
+      "dieSize": 8,
+      "finesseBonus": 180,
+      "numDice": 7,
+      "prowessBonus": 180,
+      "balance": 0.05
+    },
+    "description": "A weapon so massive it seems beyond the strength of mortals, yet you feel the might of giants within you as you heft it.  As you grip the handle of ebony and steel, coronas of fire blaze, and mighty spells to preserve magic surge around you.  You wield the Fear of Dragons and the Despair of the Undead!",
+    "allocatorRules": [
+      {
+        "commonness": 0.0033333333333333335,
+        "minDepth": 80,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Mace of Disruption",
+    "flags": [
+      "IM_FIRE",
+      "RES_FIRE",
+      "RES_DARK",
+      "RES_CHAOS",
+      "RES_DISEN",
+      "AGGRAVATE"
+    ],
+    "procs": [
+      {
+        "complexity": 80
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Lucerne Hammer", "properName": "'Turmil'"},
+    "index": 122,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_COLD"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_ORC"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "WIS",
+          "INFRA"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.8,
+      "armorBonus": 8,
+      "weight": 12.0,
+      "dieSize": 5,
+      "finesseBonus": 100,
+      "numDice": 2,
+      "prowessBonus": 110,
+      "balance": 0.2
+    },
+    "description": "Once wielded by the High Priest of Meneltarma, this great mace gleams coldly as though moonlit, and can strike equally mighty spiritual and physical blows.",
+    "allocatorRules": [
+      {
+        "commonness": 0.04666666666666667,
+        "minDepth": 20,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Lucerne Hammer",
+    "flags": [
+      "BLESSED",
+      "IM_COLD",
+      "RES_LIGHT",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "40",
+        "complexity": 20,
+        "message": "{name} glows white...",
+        "effect": "DRAIN_LIFE1"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Whip", "properName": "Gothmog"},
+    "index": 123,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE",
+          "SLAY_TROLL",
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR"
+        ]
+      },
+      {
+        "bonus": -3,
+        "flags": [
+          "INT",
+          "DEX",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.2,
+      "weight": 9.0,
+      "dieSize": 3,
+      "finesseBonus": 130,
+      "numDice": 6,
+      "prowessBonus": 150,
+      "balance": 0.8
+    },
+    "description": "A great crackling Balrog's whip of flame, this weapon could bring even Ungoliant to heel.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Whip",
+    "flags": [
+      "LIGHT_CURSE",
+      "HEAVY_CURSE",
+      "AGGRAVATE",
+      "IM_FIRE",
+      "RES_ELEC",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "15",
+        "complexity": 60,
+        "message": "The {kind} glow{s} deep red...",
+        "effect": "FIRE_BALL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "bow"],
+    "nameInfo": {"baseNoun": "Long Bow", "properName": "'Belthronding'"},
+    "index": 124,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "SPEED",
+          "STEALTH",
+          "SHOTS"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 200,
+      "balance": 0.5,
+      "prowessBonus": 220,
+      "heft": 0.75,
+      "weight": 4.0
+    },
+    "description": "The great bow of Beleg C\u00fathalion, the most famous archer of the Elves.  Its backbone of black yew holds strings of bear sinew, and of old, only Beleg himself could draw them.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Long Bow",
+    "flags": [
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "bow"],
+    "nameInfo": {"baseNoun": "Long Bow", "properName": "Bard"},
+    "index": 125,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "MIGHT"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "DEX",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 170,
+      "balance": 0.5,
+      "prowessBonus": 190,
+      "heft": 0.75,
+      "weight": 4.0
+    },
+    "description": "The great yew bow of grim-faced Bard, who shot the mightiest arrow that songs record.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Long Bow",
+    "flags": [
+      "FREE_ACT"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crossbow"],
+    "nameInfo": {"baseNoun": "Light Crossbow", "properName": "'Cubragol'"},
+    "index": 126,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_FIRE"
+        ]
+      },
+      {
+        "bonus": 10,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 100,
+      "balance": 0.5,
+      "prowessBonus": 140,
+      "heft": 0.75,
+      "weight": 11.0
+    },
+    "description": "A crossbow that grants fiery speed to he who finds it, and from which shoot bolts that blaze with flame unquenchable.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02666666666666667,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Light Crossbow",
+    "flags": [
+      "RES_FIRE"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "crossbow"],
+    "nameInfo": {"baseNoun": "Heavy Crossbow", "properName": "Umbar"},
+    "index": 127,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "MIGHT"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 1,
+      "weight": 20.0,
+      "dieSize": 1,
+      "finesseBonus": 180,
+      "numDice": 4,
+      "prowessBonus": 180,
+      "balance": 0.5
+    },
+    "description": "A great brazen arbalest with arms of gleaming steel.  It shoots quarrels with mighty power for those brave enough to risk betrayal.",
+    "allocatorRules": [
+      {
+        "commonness": 0.016666666666666666,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Heavy Crossbow",
+    "flags": [
+      "AGGRAVATE",
+      "RES_LIGHT",
+      "RES_DARK",
+      "RES_BLIND",
+      "RES_ELEC"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "20+d20",
+        "complexity": 60,
+        "message": "Your {kind} form{s} a magical arrow...",
+        "effect": "ARROW"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "bow"],
+    "nameInfo": {"baseNoun": "Short Bow", "properName": "Amrod"},
+    "index": 128,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CON",
+          "MIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 120,
+      "balance": 0.5,
+      "prowessBonus": 150,
+      "heft": 0.5,
+      "weight": 3.0
+    },
+    "description": "One of a pair of hunting bows once belonging to F\u00ebanor's two youngest sons.  The bows are like and yet unlike, much as the twin brothers were.",
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Short Bow",
+    "flags": [
+      "RES_FIRE",
+      "RES_ELEC",
+      "RES_COLD",
+      "REGEN"
+    ],
+    "procs": [
+      {
+        "complexity": 25
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "bow"],
+    "nameInfo": {"baseNoun": "Short Bow", "properName": "Amras"},
+    "index": 129,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "INT",
+          "WIS",
+          "DEX"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "SHOTS",
+          "MIGHT",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "finesseBonus": 120,
+      "balance": 0.5,
+      "prowessBonus": 150,
+      "heft": 0.5,
+      "weight": 3.0
+    },
+    "description": "One of a pair of hunting bows once belonging to F\u00ebanor's two youngest sons.  The bows are like and yet unlike, much as the twin brothers were.",
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 30,
+        "maxDepth": 80
+      }
+    ],
+    "subtype": "Short Bow",
+    "flags": [
+      "RES_FIRE",
+      "RES_ELEC",
+      "RES_COLD",
+      "SLOW_DIGEST"
+    ],
+    "procs": [
+      {
+        "complexity": 25
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "digger"],
+    "nameInfo": {"baseNoun": "Mattock", "properName": "N\u00e1in"},
+    "index": 130,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_ORC",
+          "SLAY_TROLL",
+          "SLAY_GIANT",
+          "SLAY_DRAGON"
+        ]
+      },
+      {
+        "bonus": 6,
+        "flags": [
+          "TUNNEL"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "INFRA",
+          "SEARCH",
+          "STR"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.9,
+      "weight": 24.0,
+      "dieSize": 8,
+      "finesseBonus": 120,
+      "numDice": 2,
+      "prowessBonus": 180,
+      "balance": 0.1
+    },
+    "description": "A mighty Dwarven mattock, as good for hewing orc-necks as for hewing stone.  N\u00e1in, King of the Iron Hills, brought his mattock-wielding warriors to the Battle of Azanulbizar, and no Orc could withstand them, although N\u00e1in himself fell before their lord Azog.",
+    "allocatorRules": [
+      {
+        "commonness": 0.08,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Mattock",
+    "flags": [
+      "RES_DARK",
+      "RES_DISEN"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "2",
+        "complexity": 60,
+        "message": "Your {kind} pulsate{s}...",
+        "effect": "STONE_TO_MUD"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "digger"],
+    "nameInfo": {"baseNoun": "Pick", "properName": "Erebor"},
+    "index": 131,
+    "mods": [
+      {
+        "bonus": 200,
+        "flags": [
+          "BRAND_ACID",
+          "SLAY_ORC",
+          "SLAY_TROLL",
+          "SLAY_DEMON"
+        ]
+      },
+      {
+        "bonus": 5,
+        "flags": [
+          "TUNNEL"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.8,
+      "weight": 18.0,
+      "dieSize": 3,
+      "finesseBonus": 50,
+      "numDice": 4,
+      "prowessBonus": 200,
+      "balance": 0.2
+    },
+    "description": "A fine dwarven pick, good for a miner, and suitable as a weapon should the wielder ever tunnel through into a foe's stronghold.",
+    "allocatorRules": [
+      {
+        "commonness": 0.13333333333333333,
+        "minDepth": 55,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Pick",
+    "flags": [
+      "SUST_STR",
+      "RES_CHAOS",
+      "RES_LIGHT",
+      "RES_DARK"
+    ],
+    "procs": [
+      {
+        "complexity": 55
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "hafted"],
+    "nameInfo": {"baseNoun": "Ball-and-Chain", "properName": "Fundin Bluecloak"},
+    "index": 132,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR",
+          "WIS"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "LIGHT"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.4,
+      "armorBonus": 10,
+      "weight": 13.0,
+      "dieSize": 4,
+      "finesseBonus": 130,
+      "numDice": 4,
+      "prowessBonus": 170,
+      "balance": 0.65
+    },
+    "description": "The weapon of a mighty dwarven priest, whose shade is rumoured to haunt the halls of Angband still.",
+    "allocatorRules": [
+      {
+        "commonness": 0.013333333333333334,
+        "minDepth": 65,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Ball-and-Chain",
+    "flags": [
+      "RES_FIRE",
+      "RES_ELEC",
+      "RES_NETHR",
+      "HOLD_LIFE"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "100+d100",
+        "complexity": 65,
+        "message": "The {kind} flood{s} the area with goodness...",
+        "effect": "DISPEL_EVIL"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Main Gauche", "properName": "Azagh\u00e2l"},
+    "index": 133,
+    "mods": [
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_DRAGON"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.25,
+      "weight": 3.0,
+      "dieSize": 5,
+      "finesseBonus": 120,
+      "numDice": 2,
+      "prowessBonus": 140,
+      "balance": 0.75
+    },
+    "description": "Azagh\u00e2l, Dwarf-king of Belegost, fell before Glaurung in the Battle of Unnumbered Tears.  With his final breath, Azagh\u00e2l plunged this blade into Glaurung's belly with such a blow that the Father of Dragons fled the field with all his kin, and was at first believed to be mortally wounded.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 18,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Main Gauche",
+    "flags": [
+      "IM_FIRE",
+      "RES_ACID",
+      "RES_FEAR"
+    ],
+    "procs": [
+      {
+        "complexity": 18
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Large Leather Shield", "properName": "the Haradrim"},
+    "index": 134,
+    "mods": [
+      {
+        "bonus": 2,
+        "flags": [
+          "STR",
+          "CON"
+        ]
+      }
+    ],
+    "stats": {
+      "armorBonus": 15,
+      "baseArmor": 9,
+      "weight": 9.0,
+      "dieSize": 2,
+      "finesseBonus": 50,
+      "numDice": 1,
+      "prowessBonus": 50
+    },
+    "description": "The painted shield of a chieftain of Far Harad, gaudy and barbaric.  Its wielder will fear nothing and fight with unnatural strength, but also draw attention to himself.",
+    "allocatorRules": [
+      {
+        "commonness": 0.03333333333333333,
+        "minDepth": 35,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Large Leather Shield",
+    "flags": [
+      "SUST_STR",
+      "SUST_CON",
+      "RES_FEAR",
+      "RES_BLIND",
+      "RES_POIS"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "50",
+        "complexity": 35,
+        "message": "{name} glows in anger!",
+        "effect": "BERSERKER"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Buckler", "properName": "Elros"},
+    "index": 135,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "CON"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "WIS",
+          "INT"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.0,
+      "armorBonus": 20,
+      "baseArmor": 1,
+      "numDice": 1
+    },
+    "description": "The shield of Elros Tar-Minyatur, founder of N\u00famenor. Granted long life by the Valar, even his shield became imbued with power.",
+    "allocatorRules": [
+      {
+        "commonness": 0.06666666666666667,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Buckler",
+    "flags": [
+      "RES_ELEC",
+      "RES_SHARD",
+      "RES_CONFU",
+      "HOLD_LIFE"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "sword"],
+    "nameInfo": {"baseNoun": "Bastard Sword", "properName": "\u00c9owyn"},
+    "index": 136,
+    "mods": [
+      {
+        "bonus": 100,
+        "flags": [
+          "SLAY_EVIL",
+          "SLAY_ANIMAL"
+        ]
+      },
+      {
+        "bonus": 400,
+        "flags": [
+          "SLAY_UNDEAD"
+        ]
+      },
+      {
+        "bonus": 200,
+        "flags": [
+          "SLAY_GIANT"
+        ]
+      },
+      {
+        "bonus": 4,
+        "flags": [
+          "STR",
+          "CHR"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "STEALTH"
+        ]
+      }
+    ],
+    "stats": {
+      "heft": 0.55,
+      "weight": 14.0,
+      "dieSize": 4,
+      "finesseBonus": 120,
+      "numDice": 4,
+      "prowessBonus": 160,
+      "balance": 0.55
+    },
+    "description": "The blade of the legendary Shieldmaiden of Rohan, who slew the foulsteed of the Morgul-lord before striking down the mighty Witch-king himself, whom no mortal man could hinder.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 30,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Bastard Sword",
+    "flags": [
+      "RES_NETHR",
+      "RES_FEAR",
+      "RES_DARK",
+      "RES_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 30
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Soft Boots", "properName": "Radagast"},
+    "index": 137,
+    "mods": [
+      {
+        "bonus": 5,
+        "flags": [
+          "INFRA"
+        ]
+      },
+      {
+        "bonus": 3,
+        "flags": [
+          "STEALTH"
+        ]
+      },
+      {
+        "bonus": 1,
+        "flags": [
+          "WIS"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 2.0,
+      "armorBonus": 12,
+      "baseArmor": 2,
+      "numDice": 1
+    },
+    "description": "Made of brown leather, covered with scuff marks and dust, still these boots possess the magic of Radagast, friend of birds and nature.",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 15,
+        "maxDepth": 70
+      }
+    ],
+    "subtype": "Pair of Soft Boots",
+    "flags": [
+      "FREE_ACT",
+      "RES_COLD",
+      "FEATHER"
+    ],
+    "procs": [
+      {
+        "complexity": 10
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "boots"],
+    "nameInfo": {"baseNoun": "Pair of Mithril Shod Boots", "properName": "'Stormwalker'"},
+    "index": 138,
+    "mods": [
+      {
+        "bonus": 6,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 1,
+      "weight": 4.0,
+      "armorBonus": 24,
+      "baseArmor": 8,
+      "numDice": 1
+    },
+    "description": "And they hewed off Gelmir's hands and feet, and his head last, within sight of the Elves, and left him. By ill chance there stood Gwindor of Nargothrond, the brother of Gelmir. Now his wrath was kindled to madness, and he leapt forth on horseback, and many riders with him; and they pursued the heralds and slew them, and drove on deep into the main host.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Pair of Mithril Shod Boots",
+    "flags": [
+      "IM_ELEC",
+      "RES_SOUND"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "100",
+        "complexity": 30,
+        "message": "{name} glows in anger!",
+        "effect": "BERSERKER"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "amulet"],
+    "nameInfo": {"baseNoun": "Amulet", "properName": "Amandil"},
+    "index": 139,
+    "mods": [
+      {
+        "bonus": 4,
+        "flags": [
+          "SEARCH"
+        ]
+      },
+      {
+        "bonus": 2,
+        "flags": [
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "weight": 0.3
+    },
+    "description": "The pendant of Amandil, the last Lord of And\u00fani\u00eb, and mighty ship-captain of N\u00famenor. First among N\u00famen\u00f3reans to see Sauron for what he was.",
+    "allocatorRules": [
+      {
+        "commonness": 0.02,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Amulet",
+    "flags": [
+      "RES_ELEC",
+      "RES_COLD",
+      "RES_FEAR",
+      "RES_BLIND",
+      "RES_STUN",
+      "RES_CONFU"
+    ],
+    "procs": [
+      {
+        "complexity": 65
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "shield"],
+    "nameInfo": {"baseNoun": "Large Metal Shield", "properName": "the Sun"},
+    "index": 140,
+    "mods": [
+      {
+        "bonus": 3,
+        "flags": [
+          "LIGHT",
+          "SPEED"
+        ]
+      }
+    ],
+    "stats": {
+      "dieSize": 3,
+      "weight": 6.0,
+      "armorBonus": 20,
+      "baseArmor": 5,
+      "numDice": 1
+    },
+    "description": "The large shield of Theoden, King of Rohan, who could not be overtaken\u00a0 riding into battle. Fey he seemed, or the battle-fury of his fathers\u00a0 ran like new fire in his veins. His golden shield was uncovered, and\u00a0 lo! it shone like an image of the sun.\u00a0",
+    "allocatorRules": [
+      {
+        "commonness": 0.05333333333333334,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Large Metal Shield",
+    "flags": [
+      "RES_FIRE",
+      "RES_FEAR",
+      "FREE_ACT"
+    ],
+    "procs": [
+      {
+        "rechargeTime": "300+4d50",
+        "complexity": 40,
+        "message": "The {kind} shine{s} bright...\u00a0",
+        "effect": "SUN_HERO"
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "magic book"],
+    "nameInfo": {"baseNoun": "Tome of High Magick", "properName": "[Resistances of Scarabtarices]"},
+    "index": 141,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Tome of High Magick",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "magic book"],
+    "nameInfo": {"baseNoun": "Tome of High Magick", "properName": "[Raal's Tome of Destruction]"},
+    "index": 142,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Tome of High Magick",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "magic book"],
+    "nameInfo": {"baseNoun": "Tome of High Magick", "properName": "[Mordenkainen's Escapes]"},
+    "index": 143,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Tome of High Magick",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 60
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "magic book"],
+    "nameInfo": {"baseNoun": "Tome of High Magick", "properName": "[Tenser's Transformations]"},
+    "index": 144,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Tome of High Magick",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 70
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "magic book"],
+    "nameInfo": {"baseNoun": "Tome of High Magick", "properName": "[Kelek's Grimoire of Power]"},
+    "index": 145,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 90,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Tome of High Magick",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 80
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "prayer book"],
+    "nameInfo": {"baseNoun": "Book of High Prayer", "properName": "[Ethereal Openings]"},
+    "index": 146,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 40,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Book of High Prayer",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 40
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "prayer book"],
+    "nameInfo": {"baseNoun": "Book of High Prayer", "properName": "[Godly Insights]"},
+    "index": 147,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 50,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Book of High Prayer",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 50
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "prayer book"],
+    "nameInfo": {"baseNoun": "Book of High Prayer", "properName": "[Purifications and Healing]"},
+    "index": 148,
+    "stats": {
+      "weight": 3.0
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 60,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Book of High Prayer",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 60
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "prayer book"],
+    "nameInfo": {"baseNoun": "Book of High Prayer", "properName": "[Holy Infusions]"},
+    "index": 149,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 70,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Book of High Prayer",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 70
+      }
+    ]
+  },
+  {
+    "templates": ["artifact", "prayer book"],
+    "nameInfo": {"baseNoun": "Book of High Prayer", "properName": "[Wrath of God]"},
+    "index": 150,
+    "stats": {
+      "dieSize": 1,
+      "weight": 3.0,
+      "numDice": 1
+    },
+    "randomise": "False",
+    "allocatorRules": [
+      {
+        "commonness": 0.6666666666666666,
+        "minDepth": 90,
+        "maxDepth": -1
+      }
+    ],
+    "subtype": "Book of High Prayer",
+    "flags": [
+      "IGNORE_ACID",
+      "IGNORE_ELEC",
+      "IGNORE_FIRE",
+      "IGNORE_COLD"
+    ],
+    "procs": [
+      {
+        "complexity": 90
+      }
+    ]
+  }
+]

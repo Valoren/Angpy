@@ -1,0 +1,23 @@
+[
+    {
+        "name": "print message",
+        "triggerCondition": "item use",
+        "messageString": "Hello, world!"
+    },
+    {
+        "name": "percentage stat mod",
+        "triggerCondition": "stat calculation"
+    },
+    {
+        "name": "combining stat mod",
+        "triggerCondition": "stat calculation"
+    },
+    {
+        "name": "don't allocate if already dead",
+        "triggerCondition": "allocation table creation"
+    },
+    {
+        "name": "don't allocate if already existing",
+        "triggerCondition": "allocation table selection"
+    }
+]

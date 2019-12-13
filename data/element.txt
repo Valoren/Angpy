@@ -1,0 +1,212 @@
+[
+    {
+        "name": "acid", "shortName": "Ac", "verb": "corrode",
+        "damageCap": 1600,
+        "display": {"ascii": {"color": "L_GREEN"}},
+        "info": "Acid is highly destructive, destroying many item types. It may splash on your armor, reducing its effectiveness; however, if this happens, then the damage you take from the attack will be reduced by 50%.",
+        "procs": [
+            {
+                "name": "damage equipment", 
+                "message": "was damaged by absorbing acid!",
+                "failMessage": "was undamaged!",
+                "validSlots": ["back", "body", "feet", "hands", 
+                    "head", "shield"],
+                "damagedStats": "armorMod",
+                "capStat": "baseArmor",
+                "HPDamageMultiplier": 0.5
+            }
+        ]
+    },
+    {
+        "name": "cold", "shortName": "Cd", "verb": "freeze",
+        "damageCap": 1600,
+        "display": {"ascii": {"color": "WHITE"}},
+        "info": "Cold will shatter potions."
+    },
+    {
+        "name": "electricity", "shortName": "El", "verb": "shock",
+        "damageCap": 1600,
+        "display": {"ascii": {"color": "BLUE"}},
+        "info": "Electricity will destroy wands, rings, and amulets, as well as some rods."
+    },
+    {
+        "name": "fire", "shortName": "Fr", "verb": "burn",
+        "damageCap": 1600,
+        "display": {"ascii": {"color": "RED"}},
+        "info": "Fire will burn things made of wood, paper, and leather, such as arrows, scrolls, books, leather armor, and some weapons."
+    },
+    {
+        "name": "poison", "shortName": "Ps", "verb": "poison",
+        "damageCap": 800,
+        "display": {"ascii": {"color": "GREEN"}},
+        "info": "Poison will reduce your hitpoints steadily each turn until the poison goes away on its own, or is magically cured.",
+        "procs": [
+            {
+                "name": "damage-based status effect", 
+                "status": "poison",
+                "divisor": 5
+            }
+        ]
+    },
+    {
+        "name": "light", "shortName": "Lt", "verb": "dazzle",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "ORANGE"}},
+        "info": "Light attacks will blind you.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "blind",
+                "divisor": 4
+            }
+        ]
+    },
+    {
+        "name": "darkness", "shortName": "Dk", "verb": "occlude",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "ORANGE"}},
+        "info": "Darkness attacks will blind you.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "blind",
+                "divisor": 4
+            }
+        ]
+    },
+    {
+        "name": "sound", "shortName": "So", "verb": "deafen",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "L_SLATE"}},
+        "info": "Sound attacks will stun you, and destroy potions.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "stun",
+                "divisor": 4
+            }
+        ]
+    },
+    {
+        "name": "shards", "shortName": "Sd", "verb": "slice",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "UMBER"}},
+        "info": "Shards attacks will give you wounds, and destroy potions.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "cut",
+                "divisor": 4
+            }
+        ]
+    },
+    {
+        "name": "nexus", "shortName": "Nx", "verb": "scramble",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "VIOLET"}},
+        "info": "Nexus attacks may teleport you in various ways, or scramble your stats.",
+        "procs": [
+            {
+                "name": "weighted random choice",
+                "procs": [
+                    {
+                        "weight": 8,
+                        "name": "teleport away"
+                    },
+                    {
+                        "weight": 2,
+                        "name": "teleport to"
+                    },
+                    {
+                        "weight": 1,
+                        "name": "swap stats",
+                        "swapAmount": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "nether", "shortName": "Nr", "verb": "drain",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "SLATE"}},
+        "info": "Nether attacks will drain your level.",
+        "procs": [
+            {
+                "name": "temporary status effect", 
+                "status": "level",
+                "duration": "10+d10", "stackMode": "multiple"
+            }
+        ]
+    },
+    {
+        "name": "chaos", "shortName": "Cs", "verb": "corrupt",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "DEEP_L_BLUE"}},
+        "info": "Chaos attacks can confuse you, drain levels, and cause you to hallucinate. They may also polymorph enemies.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "confuse",
+                "divisor": 4
+            },
+            {
+                "name": "damage-based status effect",
+                "status": "hallucinate",
+                "divisor": 4
+            },
+            {
+                "name": "temporary stat mod", 
+                "statName": "level",
+                "modAmount": 1, "duration": "10+d10", "stackMode": "multiple"
+            },
+            {
+                "name": "polymorph",
+                "message": "was twisted by chaos!"
+            }
+        ]
+    },
+    {
+        "name": "disenchantment", "shortName": "Ds",
+        "damageCap": 500,
+        "display": {"ascii": {"color": "L_TEAL"}},
+        "info": "Disenchantment drains the magic from equipment, reducing its pluses.",
+        "procs": [
+            {
+                "name": "damage equipment", 
+                "message": "was disenchanted!",
+                "failMessage": "retained its enchantment!",
+                "validSlots": ["back", "body", "feet", "hands", 
+                    "head", "shield", "weapon", "launcher", "finger", 
+                    "neck"],
+                "damagedStats": ["armorMod", "prowessBonus", "finesseBonus"],
+                "minValue": 0
+            }
+        ]
+    },
+    {
+        "name": "gravity", "shortName": "Gv",
+        "damageCap": 300, 
+        "display": {"ascii": {"color": "L_SLATE"}},
+        "info": "Gravity causes stunning and slowing, and teleports the target short distances.",
+        "procs": [
+            {
+                "name": "damage-based status effect",
+                "status": "stun",
+                "divisor": 10
+            },
+            {
+                "name": "damage-based status effect",
+                "status": "slow",
+                "divisor": 10,
+                "modFactor": -0.5
+            }
+        ]
+    },
+    {
+        "name": "mana", "shortName": "Ma",
+        "damageCap": 1600,
+        "display": {"ascii": {"color": "PURPLE"}},
+        "info": "Mana attacks cannot be resisted, but have no special effects."
+    }
+]

@@ -1,0 +1,98 @@
+[{
+    "bad" : {
+        "rank" : 0,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : 50 },
+            { "minNum" : 0, "maxNum" : 2, "minDepth" : 51, "maxDepth" : -1 }]
+        },
+    "average" : {
+        "rank" : 1,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "good" : {
+        "rank" : 2,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "great" : {
+        "rank" : 3,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "uber" : {
+        "rank" : 4,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "artifact" : {
+        "rank" : 5,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : -1, "minDepth" : 0, "maxDepth" : -1 }]
+        }
+},
+{
+    "state" : {
+        "position" : "modPrefix",
+        "positionDistance" : 2,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "quality" : {
+        "position" : "modPrefix",
+        "positionDistance" : 1,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 1, "minDepth" : 0, "maxDepth" : 30 },
+            { "minNum" : 0, "maxNum" : 2, "minDepth" : 31, "maxDepth" : 60 },
+            { "minNum" : 1, "maxNum" : 3, "minDepth" : 61, "maxDepth" : -1 }]
+        },
+    "material" : {
+        "position" : "basePrefix",
+        "positionDistance" : 2,
+        "nameOrderGroup" : 1,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "make" : {
+        "position" : "basePrefix",
+        "positionDistance" : 1,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 1, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "combat" : {
+        "position" : "suffix",
+        "positionDistance" : 2,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 4, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "physical" : {
+        "position" : "suffix",
+        "positionDistance" : 3,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 5, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "mental" : {
+        "position" : "suffix",
+        "positionDistance" : 4,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 5, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "elemental" : {
+        "position" : "suffix",
+        "positionDistance" : 5,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 3, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "arcane" : {
+        "position" : "suffix",
+        "positionDistance" : 6,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 4, "minDepth" : 0, "maxDepth" : -1 }]
+        },
+    "holy" : {
+        "position" : "suffix",
+        "positionDistance" : 7,
+		"allocatorRules" : [
+            { "minNum" : 0, "maxNum" : 2, "minDepth" : 0, "maxDepth" : -1 }]
+        }
+}]

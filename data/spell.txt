@@ -1,0 +1,93 @@
+[
+    {
+        "name": "acid bolt",
+        "code": "launch projectile",
+        "target": "creature",
+        "damage": "2#6", "element": "acid",
+        "message": ["{verb} an acid bolt", "cast"]
+    },
+    {
+        "name": "fire bolt",
+        "code": "launch projectile",
+        "target": "creature",
+        "damage": "2#6", "element": "fire",
+        "message": ["{verb} a fire bolt", "cast"]
+    },
+    {
+        "name": "magic missile",
+        "code": "launch projectile",
+        "target": "creature",
+        "damage": "3#4", "element": "mana",
+        "message": ["{verb} a magic missile", "cast"]
+    },
+    {
+        "name": "nether bolt",
+        "code": "launch projectile",
+        "target": "creature",
+        "damage": "level#5", "element": "nether",
+        "message": ["{verb} a nether bolt", "cast"]
+    },
+    {
+        "name": "poison bolt",
+        "code": "launch projectile",
+        "target": "creature",
+        "damage": "level#6", "element": "poison",
+        "message": ["{verb} a poison bolt", "cast"]
+    },
+    
+    {
+        "name": "chaos storm",
+        "code": "launch explosive",
+        "target": "creature",
+        "damage": "level#6", "radius": 2, "element": "chaos",
+        "message": ["{verb} a storm of chaos", "invoke"]
+    },
+    {
+        "name": "disenchantment ball",
+        "code": "launch explosive",
+        "target": "creature",
+        "damage": "level#6", "radius": 3, "element": "disenchantment",
+        "message": ["{verb} a disenchantment ball", "cast"]
+    },
+    
+    {
+        "name": "breathe gravity",
+        "code": "launch explosive",
+        "target": "creature",
+        "damage": "hp / 3", "radius": "2 + damage / 100", "element": "gravity",
+        "message": ["{verb} gravity", "breathe"]
+    },
+
+    {
+        "name": "confuse",
+        "code": "temporary status effect",
+        "target": "creature",
+        "status": "confusion",
+        "duration": 10,
+        "stackMode": "reset"
+    },
+
+    {
+        "name": "haste self",
+        "code": "temporary stat mod", 
+        "target": "self",
+        "statName": "speed", "modAmount": 1, "duration": "10+d10",
+        "message": ["{verb} up", "speed"]
+    },
+
+    {
+        "name": "phase door",
+        "target": "self",
+        "message": ["{verb} a phase door", "cast"]
+    },
+    {
+        "name": "teleport away",
+        "target": "creature",
+        "message": ["{verb} {creature}", "teleport"]
+    },
+    {
+        "name": "teleport to",
+        "target": "creature",
+        "message": ["{verb} {creature}", "summon"]
+    }
+]

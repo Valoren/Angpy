@@ -1,0 +1,44 @@
+[
+    {
+        "name": "confusion", "shortName": "Cn",
+        "initialDescription": ["{verb} confused.", "are"],
+        "stackDescription": ["{verb} more confused", "are"],
+        "procs": {
+            "read": {"name": "prevent item use", 
+                "message": ["{verb} too confused!", "are"]},
+            "cast": {"name": "prevent item use", 
+                "message": ["{verb} too confused!", "are"]},
+            "move": {"name": "randomize movement",
+                "successPercentage": 30, "adjacentPercentage": 20, 
+                "message": ["{verb} confused.", "are"]}
+        }
+    },
+    {
+        "name": "hallucinate", "shortName": "Hl",
+        "initialDescription": ["{verb} see clearly.", "cannot"]
+    },
+    {
+        "name": "level", "shortName": "XP",
+        "statName": "creatureLevel", "modAmount": -1,
+        "initialDescription": ["{verb} a level!", "lose"]
+    },
+    {
+        "name": "paralysis", "shortName": "Pz",
+        "initialDescription": ["{verb} paralyzed.", "are"]
+    },
+    {
+        "name": "slow", "shortName": "Sl",
+        "statName": "speed",
+        "initialDescription": ["{verb} slowed.", "are"]
+    },
+    {
+        "name": "speed",
+        "statName": "speed",
+        "initialDescription": ["{verb} up.", "speed"]
+    },
+    {
+        "name": "stun", "shortName": "St",
+        "initialDescription": ["{verb} stunned.", "are"],
+        "stackDescription": ["{verb} more stunned.", "are"]
+    }
+]

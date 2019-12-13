@@ -1,0 +1,104 @@
+[
+  { 
+    "templateName": "normal",
+    "numAffixes": "-1+d2M5",
+    "minAffixLevel": "bad",
+    "maxAffixLevel": "good",
+    "itemRuleBoosts":
+      {
+        "minAffixLevel": ["10 + mapLevel;1", "(60 * mapLevel + 3 * mapLevel^2) / 500;1"],
+        "maxAffixLevel": ["20 + mapLevel;1", "3 * mapLevel / 5;1"],
+        "numAffixes": ["20 + mapLevel;1", "(60 * mapLevel + 3 * mapLevel^2) / 500;d2"],
+        "magicLevel": ["5;d100"]
+      }
+  },
+
+  { 
+    "templateName": "good",
+    "numAffixes": "d3M5",
+    "minAffixLevel": "average",
+    "maxAffixLevel": "good",
+    "itemRuleBoosts":
+      {
+        "itemLevel": ["100;5+M5"],
+        "minAffixLevel": ["(20 + mapLevel) / 3;1"],
+        "maxAffixLevel": ["20 + mapLevel;1", "33;1"],
+        "numAffixes": ["20 + mapLevel;1", "(20 + mapLevel) / 3;d2"],
+        "magicLevel": ["5;d100"]
+      },
+    "themeChance": 110,
+    "artifactChance": 8
+  },
+
+  { 
+    "templateName": "great",
+    "numAffixes": "2+d4M5",
+    "minAffixLevel": "average",
+    "maxAffixLevel": "great",
+    "itemRuleBoosts":
+      {
+        "itemLevel": ["100;10+M5"],
+        "minAffixLevel": ["20 + mapLevel;1"],
+        "maxAffixLevel": ["20 + mapLevel;1"],
+        "numAffixes": ["20 + mapLevel;d2"],
+        "magicLevel": ["5;d100"]
+      },
+    "themeChance": 120,
+    "artifactChance": 26.67
+  },
+
+  { 
+    "templateName": "orc lair",
+    "numAffixes": "-1+d2",
+    "minAffixLevel": "bad",
+    "maxAffixLevel": "average",
+    "allowCategories": ["hard armor", "shield", "sword", "hafted", "light crossbow"],
+    "allowAffixes": {
+        "material": ["Stone", "Bone", "Iron", "Lead-Filled"],
+        "quality": "all",
+        "make": ["Orcish"]},
+    "denyAffixes": {
+        "unknown": "all"},
+    "themeChance": 10,
+    "artifactChance": 0.1
+  },
+
+  {
+    "templateName": "kitchen sink",
+    "itemLevel": "50+4d5M20",
+    "denyCategories": ["plate mail"],
+    "allowCategories": ["soft armor", "hard armor", "shield", "sword", "hafted", "polearm", "launcher"],
+    "affixes": ["Brutal", "of Nightbane"],
+    "magicLevel": 40,
+    "numAffixes": "1+2d3M4",
+    "minAffixLevel": "average",
+    "maxAffixLevel": "great",
+    "allowAffixes": {
+        "material": "all",
+        "quality": "all",
+        "arcane": "all",
+        "elemental": "all" },
+    "denyAffixes": {
+        "make": ["Orcish"],
+        "unknown": "all"},
+    "affixLimits": {
+        "levelsMin": { "average": 1, "good": 1 },
+        "levelsMax": { "average": 2 },
+        "typesMin": { "make": 1, "material": 1 },
+        "typesMax": { "material": 2 } },
+    "denyThemes": ["the Magi"],
+    "itemRuleBoosts": {
+        "itemLevel": ["50 + mapLevel;10+M5"],
+        "minAffixLevel": ["20 + mapLevel;1"],
+        "maxAffixLevel": ["20 + mapLevel;1"],
+        "numAffixes": ["20 + mapLevel;d2"],
+        "magicLevel": ["5;d60"] },
+    "themeChance": 95,
+    "artifactChance": 1.05
+  },
+
+  {
+    "templateName": "artifact test",
+    "artifactName": "'Grond'"
+  }
+]

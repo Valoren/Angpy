@@ -1,0 +1,6 @@
+#!/bin/sh
+# This script assists OSX users who are using 32-bit wxPython instead of 
+# 64-bit.
+export VERSIONER_PYTHON_PREFER_32_BIT=yes
+make all
+python pyrel.py $*

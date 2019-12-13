@@ -1,0 +1,1690 @@
+[
+  {
+    "name": "Strength", 
+    "powerMult": 13, 
+    "basePower": 9, 
+    "flagType": "STAT", 
+    "label": "STR", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Intelligence", 
+    "powerMult": 10, 
+    "basePower": 5, 
+    "flagType": "STAT", 
+    "label": "INT", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Wisdom", 
+    "powerMult": 10, 
+    "basePower": 5, 
+    "flagType": "STAT", 
+    "label": "WIS", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Dexterity", 
+    "powerMult": 10, 
+    "basePower": 8, 
+    "flagType": "STAT", 
+    "label": "DEX", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 2, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Constitution", 
+    "powerMult": 15, 
+    "basePower": 12, 
+    "flagType": "STAT", 
+    "label": "CON", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Charisma", 
+    "basePower": 2, 
+    "flagType": "STAT", 
+    "label": "CHR", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Stealth", 
+    "powerMult": 12, 
+    "basePower": 8, 
+    "flagType": "PVAL", 
+    "label": "STEALTH", 
+    "ID message": "Your %s glows.", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Searching", 
+    "powerMult": 5, 
+    "basePower": 2, 
+    "flagType": "PVAL", 
+    "label": "SEARCH", 
+    "ID message": "Your %s glows.", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Infravision", 
+    "powerMult": 8, 
+    "basePower": 4, 
+    "flagType": "PVAL", 
+    "label": "INFRA", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Tunnelling", 
+    "powerMult": 8, 
+    "basePower": 3, 
+    "flagType": "HURT", 
+    "label": "TUNNEL", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Speed", 
+    "powerMult": 12, 
+    "basePower": 40, 
+    "flagType": "PVAL", 
+    "label": "SPEED", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Extra Blows", 
+    "powerMult": 50, 
+    "flagType": "PVAL", 
+    "label": "BLOWS", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Extra Shots", 
+    "powerMult": 50, 
+    "flagType": "PVAL", 
+    "label": "SHOTS", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 4, 
+      "head": 4, 
+      "neck": 4, 
+      "launcher": 1, 
+      "shield": 4, 
+      "back": 4, 
+      "feet": 4, 
+      "finger": 4, 
+      "hands": 4, 
+      "light source": 4
+    }
+  }, 
+  {
+    "name": "Extra Might", 
+    "powerMult": 40, 
+    "flagType": "PVAL", 
+    "label": "MIGHT", 
+    "ID": "wield", 
+    "slotPower": {
+      "launcher": 1
+    }
+  }, 
+  {
+    "name": "Slay Animal", 
+    "flagType": "SLAY", 
+    "label": "SLAY_ANIMAL", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Evil", 
+    "flagType": "SLAY", 
+    "label": "SLAY_EVIL", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Undead", 
+    "flagType": "SLAY", 
+    "label": "SLAY_UNDEAD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Demon", 
+    "flagType": "SLAY", 
+    "label": "SLAY_DEMON", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Orc", 
+    "flagType": "SLAY", 
+    "label": "SLAY_ORC", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Troll", 
+    "flagType": "SLAY", 
+    "label": "SLAY_TROLL", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Giant", 
+    "flagType": "SLAY", 
+    "label": "SLAY_GIANT", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Slay Dragon", 
+    "flagType": "SLAY", 
+    "label": "SLAY_DRAGON", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Venom Brand", 
+    "flagType": "BRAND", 
+    "label": "BRAND_POIS", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Acid Brand", 
+    "flagType": "BRAND", 
+    "label": "BRAND_ACID", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Electric Brand", 
+    "flagType": "BRAND", 
+    "label": "BRAND_ELEC", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Fire Brand", 
+    "flagType": "BRAND", 
+    "label": "BRAND_FIRE", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Cold Brand", 
+    "flagType": " BRAND", 
+    "label": "BRAND_COLD", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 3, 
+      "head": 3, 
+      "neck": 3, 
+      "launcher": 3, 
+      "weapon": 1, 
+      "shield": 3, 
+      "back": 3, 
+      "feet": 3, 
+      "finger": 3, 
+      "hands": 3, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Sustain Strength", 
+    "ID message": "Your %s glows.", 
+    "basePower": 9, 
+    "flagType": "SUST", 
+    "label": "SUST_STR", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Sustain Intelligence", 
+    "ID message": "Your %s glows.", 
+    "basePower": 4, 
+    "flagType": "SUST", 
+    "label": "SUST_INT", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Sustain Wisdom", 
+    "ID message": "Your %s glows.", 
+    "basePower": 4, 
+    "flagType": "SUST", 
+    "label": "SUST_WIS", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": " Sustain Dexterity", 
+    "ID message": " Your %s glows.", 
+    "basePower": 7, 
+    "flagType": "SUST", 
+    "label": "SUST_DEX", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Sustain Constitution", 
+    "ID message": "Your %s glows.", 
+    "basePower": 8, 
+    "flagType": "SUST", 
+    "label": "SUST_CON", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Sustain Charisma", 
+    "ID message": "Your %s glows.", 
+    "basePower": 1, 
+    "flagType": "SUST", 
+    "label": "SUST_CHR", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Acid Vulnerability", 
+    "ID message": "Your %s glows.", 
+    "basePower": -6, 
+    "flagType": "VULN", 
+    "label": "VULN_ACID", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Electric Vulnerability", 
+    "ID message": "Your %s glows.", 
+    "basePower": -6, 
+    "flagType": "VULN", 
+    "label": "VULN_ELEC", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Fire Vulnerability", 
+    "ID message": "Your %s glows.", 
+    "basePower": -6, 
+    "flagType": "VULN", 
+    "label": "VULN_FIRE", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Cold Vulnerability", 
+    "ID message": "Your %s glows.", 
+    "basePower": -6, 
+    "flagType": "VULN", 
+    "label": "VULN_COLD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Acid Immunity", 
+    "ID message": "Your %s glows.", 
+    "basePower": 38, 
+    "flagType": "IMM", 
+    "label": "IM_ACID", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Electric Immunity", 
+    "ID message": "Your %s glows.", 
+    "basePower": 35, 
+    "flagType": "IMM", 
+    "label": "IM_ELEC", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Fire Immunity", 
+    "ID message": "Your %s glows.", 
+    "basePower": 40, 
+    "flagType": "IMM", 
+    "label": "IM_FIRE", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Cold Immunity", 
+    "ID message": "Your %s glows.", 
+    "basePower": 37, 
+    "flagType": "IMM", 
+    "label": "IM_COLD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Acid Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 5, 
+    "flagType": "LRES", 
+    "label": "RES_ACID", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Electric Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 6, 
+    "flagType": "LRES", 
+    "label": "RES_ELEC", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Fire Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 6, 
+    "flagType": "LRES", 
+    "label": "RES_FIRE", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Cold Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 6, 
+    "flagType": "LRES", 
+    "label": "RES_COLD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Poison Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 28, 
+    "flagType": "HRES", 
+    "label": "RES_POIS", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Fear Protection", 
+    "ID message": "Your %s glows.", 
+    "basePower": 6, 
+    "flagType": "PROT", 
+    "label": "RES_FEAR", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Light Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 6, 
+    "flagType": "HRES", 
+    "label": "RES_LIGHT", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Dark Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 16, 
+    "flagType": "HRES", 
+    "label": "RES_DARK", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Blindness Protection", 
+    "ID message": "Your %s glows.", 
+    "basePower": 16, 
+    "flagType": "PROT", 
+    "label": "RES_BLIND", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Confusion Protection", 
+    "ID message": "Your %s glows.", 
+    "basePower": 24, 
+    "flagType": "PROT", 
+    "label": "RES_CONFU", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Sound Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 14, 
+    "flagType": "HRES", 
+    "label": "RES_SOUND", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Shards Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 8, 
+    "flagType": "HRES", 
+    "label": "RES_SHARD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Nexus Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 15, 
+    "flagType": "HRES", 
+    "label": "RES_NEXUS", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Nether Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 20, 
+    "flagType": "HRES", 
+    "label": "RES_NETHR", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Chaos Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 20, 
+    "flagType": "HRES", 
+    "label": "RES_CHAOS", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Disenchant Resistance", 
+    "ID message": "Your %s glows.", 
+    "basePower": 20, 
+    "flagType": "HRES", 
+    "label": "RES_DISEN", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Slow Digestion", 
+    "ID message": "You feel your %s slow your metabolism.", 
+    "basePower": 2, 
+    "flagType": "MISC", 
+    "label": "SLOW_DIGEST", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Feather Falling", 
+    "ID message": "Your %s slows your fall.", 
+    "basePower": 1, 
+    "flagType": "MISC", 
+    "label": "FEATHER", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Light Radius", 
+    "powerMult": 40, 
+    "basePower": 3, 
+    "flagType": "HURT", 
+    "label": "LIGHT", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 3
+    }
+  }, 
+  {
+    "name": "Regeneration", 
+    "ID message": "You feel your %s speed up your recovery.", 
+    "basePower": 5, 
+    "flagType": "MISC", 
+    "label": "REGEN", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 2, 
+      "head": 2, 
+      "neck": 2, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 2, 
+      "back": 2, 
+      "feet": 2, 
+      "finger": 2, 
+      "hands": 2, 
+      "light source": 2
+    }
+  }, 
+  {
+    "name": "Telepathy", 
+    "basePower": 35, 
+    "flagType": "MISC", 
+    "label": "TELEPATHY", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 2, 
+      "head": 2, 
+      "neck": 2, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 2, 
+      "back": 2, 
+      "feet": 2, 
+      "finger": 2, 
+      "hands": 2, 
+      "light source": 2
+    }
+  }, 
+  {
+    "name": "See Invisible", 
+    "basePower": 6, 
+    "flagType": "MISC", 
+    "label": "SEE_INVIS", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 2, 
+      "head": 2, 
+      "neck": 2, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 2, 
+      "back": 2, 
+      "feet": 2, 
+      "finger": 2, 
+      "hands": 2, 
+      "light source": 2
+    }
+  }, 
+  {
+    "name": "Free Action", 
+    "ID message": "Your %s glows.", 
+    "basePower": 8, 
+    "flagType": "MISC", 
+    "label": "FREE_ACT", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 2, 
+      "head": 2, 
+      "neck": 2, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 2, 
+      "back": 2, 
+      "feet": 2, 
+      "finger": 2, 
+      "hands": 5, 
+      "light source": 2
+    }
+  }, 
+  {
+    "name": "Lifedrain Protection", 
+    "ID message": "Your %s glows.", 
+    "basePower": 5, 
+    "flagType": "MISC", 
+    "label": "HOLD_LIFE", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 2, 
+      "head": 2, 
+      "neck": 2, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 2, 
+      "back": 2, 
+      "feet": 2, 
+      "finger": 2, 
+      "hands": 2, 
+      "light source": 2
+    }
+  }, 
+  {
+    "name": "No Fuel", 
+    "basePower": 5, 
+    "flagType": "LIGHT", 
+    "label": "NO_FUEL", 
+    "ID": "wield", 
+    "slotPower": {
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Impair health", 
+    "ID message": "You feel your %s slow your recovery.", 
+    "basePower": -9, 
+    "flagType": "BAD", 
+    "label": "IMPAIR_HP", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Impair mana", 
+    "ID message": "You feel your %s slow your mana recovery.", 
+    "basePower": -9, 
+    "flagType": "BAD", 
+    "label": "IMPAIR_MANA", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Fear", 
+    "basePower": -20, 
+    "flagType": "BAD", 
+    "label": "AFRAID", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Impact", 
+    "ID message": "Your %s causes an earthquake!", 
+    "basePower": 10, 
+    "flagType": "HURT", 
+    "label": "IMPACT", 
+    "ID": "normal", 
+    "slotPower": {
+      "weapon": 1
+    }
+  }, 
+  {
+    "name": "Teleportation", 
+    "ID message": "Your %s teleports you.", 
+    "basePower": -20, 
+    "flagType": "BAD", 
+    "label": "TELEPORT", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Aggravation", 
+    "ID message": "You feel your %s aggravate things around you.", 
+    "basePower": -20, 
+    "flagType": "BAD", 
+    "label": "AGGRAVATE", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Experience Drain", 
+    "ID message": "You feel your %s drain your life.", 
+    "basePower": -5, 
+    "flagType": "BAD", 
+    "label": "DRAIN_EXP", 
+    "ID": "timed", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Ignore Acid", 
+    "basePower": 3, 
+    "flagType": "IGNORE", 
+    "label": "IGNORE_ACID", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Ignore Electricity", 
+    "basePower": 1, 
+    "flagType": "IGNORE", 
+    "label": "IGNORE_ELEC", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Ignore Fire", 
+    "basePower": 3, 
+    "flagType": "IGNORE", 
+    "label": "IGNORE_FIRE", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Ignore Cold", 
+    "basePower": 1, 
+    "flagType": "IGNORE", 
+    "label": "IGNORE_COLD", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Stun Protection", 
+    "ID message": "Your %s glows.", 
+    "basePower": 12, 
+    "flagType": "PROT", 
+    "label": "RES_STUN", 
+    "ID": "normal", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Blessed", 
+    "basePower": 1, 
+    "flagType": "MELEE", 
+    "label": "BLESSED", 
+    "ID": "wield", 
+    "slotPower": {
+      "weapon": 1
+    }
+  }, 
+  {
+    "name": "Easy_know", 
+    "ID": "never", 
+    "flagType": "INT", 
+    "label": "EASY_KNOW"
+  }, 
+  {
+    "name": "Light Curse", 
+    "basePower": -5, 
+    "flagType": "CURSE", 
+    "label": "LIGHT_CURSE", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Heavy Curse", 
+    "basePower": -15, 
+    "flagType": "CURSE", 
+    "label": "HEAVY_CURSE", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Permanent Curse", 
+    "basePower": -25, 
+    "flagType": "CURSE", 
+    "label": "PERMA_CURSE", 
+    "ID": "wield", 
+    "slotPower": {
+      "body": 1, 
+      "head": 1, 
+      "neck": 1, 
+      "launcher": 1, 
+      "weapon": 1, 
+      "shield": 1, 
+      "back": 1, 
+      "feet": 1, 
+      "finger": 1, 
+      "hands": 1, 
+      "light source": 1
+    }
+  }, 
+  {
+    "name": "Hates Acid", 
+    "ID": "never", 
+    "flagType": "HATES", 
+    "label": "HATES_ACID"
+  }, 
+  {
+    "name": "Hates Electricity", 
+    "ID": "never", 
+    "flagType": "HATES", 
+    "label": "HATES_ELEC"
+  }, 
+  {
+    "name": "Hates Fire", 
+    "ID": "never", 
+    "flagType": "HATES", 
+    "label": "HATES_FIRE"
+  }, 
+  {
+    "name": "Hates Cold", 
+    "ID": "never", 
+    "flagType": "HATES", 
+    "label": "HATES_COLD"
+  }, 
+  {
+    "name": "Caster-friendly", 
+    "ID": "never", 
+    "flagType": "INT", 
+    "label": "SPELLS_OK"
+  }, 
+  {
+    "name": "show_dice", 
+    "ID": "never", 
+    "flagType": "INT", 
+    "label": "SHOW_DICE"
+  }, 
+  {
+    "name": "show_mult", 
+    "ID": "never", 
+    "flagType": "INT", 
+    "label": "SHOW_MULT"
+  }
+]

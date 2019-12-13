@@ -1,0 +1,33 @@
+[
+{"name": "permanent wall", 
+"display": {"ascii": {"color": "UMBER", "symbol": "#"}}, 
+"interactions": [{"action": "tunnel", "procs": [{"messageString": "This wall appears to be made of solid titanium.", "name": "print message"}]}], 
+"flags": ["OBSTRUCT", "OPAQUE"]},
+
+{"name": "granite wall", 
+"display": {"ascii": {"color": "L_SLATE", "symbol": "#"}}, 
+"interactions": [{"action": "tunnel", "procs": [{"difficulty": 2, "name": "tunnel"}]}], 
+"flags": ["OBSTRUCT", "OPAQUE"]},
+
+{"name": "door", 
+"display": {"ascii": {"color": "UMBER", "symbol": "+"}}, 
+"interactions": [{"action": "open", "procs": [{"messageString": "<actor> opened the door.", "name": "print smart message"}, {"name": "replace terrain", "newTerrain": "open door"}]}], 
+"flags": ["OBSTRUCT", "OPAQUE", "INTERESTING"]},
+
+{"name": "down staircase", 
+"display": {"ascii": {"color": "L_SLATE", "symbol": ">"}}, 
+"interactions": [{"action": "descend", "procs": [{"messageString": "<actor> enter a maze of down staircases.", "name": "print smart message"}, {"newLevel": "+1", "name": "change level"}]}],
+"flags": ["INTERESTING"]},
+
+{"name": "up staircase", 
+"display": {"ascii": {"color": "L_SLATE", "symbol": "<"}}, 
+"interactions": [{"action": "ascend", "procs": [{"messageString": "<actor> enter a maze of up staircases.", "name": "print smart message"}, {"newLevel": "-1", "name": "change level"}]}],
+"flags": ["INTERESTING"]},
+
+{"name": "open door", 
+"display": {"ascii": {"color": "UMBER", "symbol": "'"}}, 
+"interactions": [{"action": "close", "procs": [{"messageString": "<actor> closed the door.", "name": "print smart message"}, {"name": "replace terrain", "newTerrain": "door"}]}],
+"flags": ["INTERESTING"]},
+
+{"name": "decorative floor tile", 
+"display": {"ascii": {"color": "BLUE_SLATE", "symbol": "."}}}]

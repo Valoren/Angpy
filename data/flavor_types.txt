@@ -1,0 +1,10 @@
+{
+    "food": ["Colors", "Textures"],
+    "potion": ["Colors", "Liquids"],
+    "ring": ["Stones", "Metals", "Miscellaneous"],
+    "staff": ["Woods"],
+    "wand": ["Metals"],
+    "rod": ["Metals"],
+    "amulet": ["Stones", "Miscellaneous"],
+    "scroll": ["Woods"]
+}

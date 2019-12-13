@@ -1,0 +1,2036 @@
+[
+    {
+        "name": "creature",
+        "procs": [
+            {
+                "code": "basic status update",
+                "triggerCondition": "update"
+            }
+        ]
+    },
+    {
+        "flags": [
+            "SUST_CON"
+        ], 
+        "name": "Dunadan", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "2", 
+            "CON": "3", 
+            "DEX": "2", 
+            "INT": "2", 
+            "STR": "1", 
+            "WIS": "2", 
+            "bowFinesse": "10", 
+            "digging": "0", 
+            "disarmTraps": "4", 
+            "experienceMultiplier": "180", 
+            "hitDie": "10", 
+            "infravisionRadius": "0", 
+            "magicDevice": "5", 
+            "meleeFinesse": "5", 
+            "meleeProwess": "10", 
+            "savingThrow": "5", 
+            "search": "3", 
+            "searchRadius": "2", 
+            "stealth": "1", 
+            "thrownFinesse": "10"
+        }
+    }, 
+    {
+        "flags": [
+            "RES_BLIND"
+        ], 
+        "name": "Dwarf", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "-3", 
+            "CON": "2", 
+            "DEX": "-2", 
+            "INT": "-3", 
+            "STR": "2", 
+            "WIS": "2", 
+            "bowFinesse": "0", 
+            "digging": "40", 
+            "disarmTraps": "2", 
+            "experienceMultiplier": "120", 
+            "hitDie": "11", 
+            "infravisionRadius": "5", 
+            "magicDevice": "9", 
+            "meleeFinesse": "-15", 
+            "meleeProwess": "15", 
+            "savingThrow": "9", 
+            "search": "8", 
+            "searchRadius": "2", 
+            "stealth": "-1", 
+            "thrownFinesse": "0"
+        }
+    }, 
+    {
+        "flags": [
+            "SUST_DEX", 
+            "RES_LIGHT"
+        ], 
+        "name": "Elf", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "1", 
+            "CON": "-1", 
+            "DEX": "1", 
+            "INT": "2", 
+            "STR": "-1", 
+            "WIS": "-1", 
+            "bowFinesse": "15", 
+            "digging": "0", 
+            "disarmTraps": "5", 
+            "experienceMultiplier": "120", 
+            "hitDie": "9", 
+            "infravisionRadius": "3", 
+            "magicDevice": "6", 
+            "meleeFinesse": "5", 
+            "meleeProwess": "-5", 
+            "savingThrow": "6", 
+            "search": "5", 
+            "searchRadius": "2", 
+            "stealth": "2", 
+            "thrownFinesse": "15"
+        }
+    }, 
+    {
+        "flags": [
+            "FREE_ACT"
+        ], 
+        "name": "Gnome", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "-2", 
+            "CON": "1", 
+            "DEX": "2", 
+            "INT": "2", 
+            "STR": "-1", 
+            "WIS": "0", 
+            "bowFinesse": "12", 
+            "digging": "0", 
+            "disarmTraps": "10", 
+            "experienceMultiplier": "125", 
+            "hitDie": "8", 
+            "infravisionRadius": "4", 
+            "magicDevice": "22", 
+            "meleeFinesse": "8", 
+            "meleeProwess": "-8", 
+            "savingThrow": "12", 
+            "search": "5", 
+            "searchRadius": "2", 
+            "stealth": "3", 
+            "thrownFinesse": "12"
+        }
+    }, 
+    {
+        "flags": [
+            "SUST_DEX"
+        ], 
+        "name": "Half-Elf", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "1", 
+            "CON": "-1", 
+            "DEX": "1", 
+            "INT": "1", 
+            "STR": "0", 
+            "WIS": "-1", 
+            "bowFinesse": "5", 
+            "digging": "0", 
+            "disarmTraps": "2", 
+            "experienceMultiplier": "110", 
+            "hitDie": "10", 
+            "infravisionRadius": "2", 
+            "magicDevice": "3", 
+            "meleeFinesse": "1", 
+            "meleeProwess": "-1", 
+            "savingThrow": "3", 
+            "search": "3", 
+            "searchRadius": "2", 
+            "stealth": "1", 
+            "thrownFinesse": "5"
+        }
+    }, 
+    {
+        "flags": [
+            "RES_DARK"
+        ], 
+        "name": "Half-Orc", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "-4", 
+            "CON": "1", 
+            "DEX": "0", 
+            "INT": "-1", 
+            "STR": "2", 
+            "WIS": "0", 
+            "bowFinesse": "-5", 
+            "digging": "0", 
+            "disarmTraps": "-3", 
+            "experienceMultiplier": "110", 
+            "hitDie": "10", 
+            "infravisionRadius": "3", 
+            "magicDevice": "-3", 
+            "meleeFinesse": "-12", 
+            "meleeProwess": "12", 
+            "savingThrow": "-3", 
+            "search": "0", 
+            "searchRadius": "1", 
+            "stealth": "-1", 
+            "thrownFinesse": "-5"
+        }
+    }, 
+    {
+        "flags": [
+            "SUST_STR", 
+            "REGEN"
+        ], 
+        "name": "Half-Troll", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "-6", 
+            "CON": "3", 
+            "DEX": "-4", 
+            "INT": "-4", 
+            "STR": "4", 
+            "WIS": "-2", 
+            "bowFinesse": "-10", 
+            "digging": "0", 
+            "disarmTraps": "-5", 
+            "experienceMultiplier": "120", 
+            "hitDie": "12", 
+            "infravisionRadius": "3", 
+            "magicDevice": "-8", 
+            "meleeFinesse": "-20", 
+            "meleeProwess": "20", 
+            "savingThrow": "-8", 
+            "search": "-5", 
+            "searchRadius": "1", 
+            "stealth": "-2", 
+            "thrownFinesse": "-10"
+        }
+    }, 
+    {
+        "flags": [
+            "RES_LIGHT", 
+            "SEE_INVIS"
+        ], 
+        "name": "High-Elf", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "5", 
+            "CON": "1", 
+            "DEX": "3", 
+            "INT": "3", 
+            "STR": "1", 
+            "WIS": "-1", 
+            "bowFinesse": "25", 
+            "digging": "0", 
+            "disarmTraps": "4", 
+            "experienceMultiplier": "200", 
+            "hitDie": "10", 
+            "infravisionRadius": "4", 
+            "magicDevice": "20", 
+            "meleeFinesse": "10", 
+            "meleeProwess": "5", 
+            "savingThrow": "20", 
+            "search": "3", 
+            "searchRadius": "2", 
+            "stealth": "2", 
+            "thrownFinesse": "25"
+        }
+    }, 
+    {
+        "flags": [
+            "HOLD_LIFE"
+        ], 
+        "name": "Hobbit", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "1", 
+            "CON": "2", 
+            "DEX": "3", 
+            "INT": "2", 
+            "STR": "-2", 
+            "WIS": "1", 
+            "bowFinesse": "20", 
+            "digging": "0", 
+            "disarmTraps": "15", 
+            "experienceMultiplier": "110", 
+            "hitDie": "7", 
+            "infravisionRadius": "4", 
+            "magicDevice": "18", 
+            "meleeFinesse": "10", 
+            "meleeProwess": "-10", 
+            "savingThrow": "18", 
+            "search": "8", 
+            "searchRadius": "3", 
+            "stealth": "4", 
+            "thrownFinesse": "20"
+        }
+    }, 
+    {
+        "name": "Human", 
+        "templates": ["creature"],
+        "stats": {
+            "CHA": "0", 
+            "CON": "0", 
+            "DEX": "0", 
+            "INT": "0", 
+            "STR": "0", 
+            "WIS": "0", 
+            "bowFinesse": "0", 
+            "digging": "0", 
+            "disarmTraps": "0", 
+            "experienceMultiplier": "100", 
+            "hitDie": "10", 
+            "infravisionRadius": "0", 
+            "magicDevice": "0", 
+            "meleeFinesse": "0", 
+            "meleeProwess": "0", 
+            "savingThrow": "0", 
+            "search": "0", 
+            "searchRadius": "2", 
+            "stealth": "0", 
+            "thrownFinesse": "0"
+        }
+    }, 
+    {
+        "flags": [
+            "CUMBER_GLOVE", 
+            "ZERO_FAIL", 
+            "BEAM", 
+            "CHOOSE_SPELLS"
+        ], 
+        "name": "Mage", 
+        "stats": {
+            "CHA": "1", 
+            "CON": "-2", 
+            "DEX": "0", 
+            "INT": "3", 
+            "STR": "-3", 
+            "WIS": "0", 
+            "bowFinesse": {
+                "addend": "20", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.7, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "30", 
+            "hitDie": "0", 
+            "magicDevice": {
+                "addend": "36", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.3, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "34", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "10", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.9, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "10", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.8, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "1", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "2", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "20", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "name": "opponent", 
+        "templates": ["creature"],
+        "procs": [
+            {
+                "name": "standard AI", 
+                "triggerCondition": "update"
+            },
+            {
+                "code": "do creature attack",
+                "triggerCondition": "on attack"
+            },
+            {
+                "code": "display creature recall",
+                "triggerCondition": "display recall"
+            }
+        ]
+    },
+    {
+        "category": "Morgoth", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "P"
+            }
+        }, 
+        "name": "Morgoth", 
+        "type": "Morgoth"
+    }, 
+    {
+        "flags": [
+            "PSEUDO_ID_IMPROV"
+        ], 
+        "name": "Paladin", 
+        "stats": {
+            "CHA": "2", 
+            "CON": "2", 
+            "DEX": "-1", 
+            "INT": "-3", 
+            "STR": "1", 
+            "WIS": "1", 
+            "bowFinesse": {
+                "addend": "40", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 3.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "20", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.7, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "35", 
+            "hitDie": "6", 
+            "magicDevice": {
+                "addend": "24", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "40", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "100", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "25", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.1, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "10", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.9, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "40", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 3.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "flags": [
+            "BLESS_WEAPON", 
+            "ZERO_FAIL", 
+            "PSEUDO_ID_IMPROV"
+        ], 
+        "name": "Priest", 
+        "stats": {
+            "CHA": "2", 
+            "CON": "1", 
+            "DEX": "-1", 
+            "INT": "-3", 
+            "STR": "-1", 
+            "WIS": "3", 
+            "bowFinesse": {
+                "addend": "35", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "25", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.7, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "20", 
+            "hitDie": "2", 
+            "magicDevice": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "50", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "32", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.2, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "20", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.6, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "2", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "35", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "flags": [
+            "CUMBER_GLOVE", 
+            "EXTRA_SHOT", 
+            "CHOOSE_SPELLS", 
+            "PSEUDO_ID_IMPROV"
+        ], 
+        "name": "Ranger", 
+        "stats": {
+            "CHA": "1", 
+            "CON": "-1", 
+            "DEX": "1", 
+            "INT": "2", 
+            "STR": "0", 
+            "WIS": "-2", 
+            "bowFinesse": {
+                "addend": "72", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.8, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "30", 
+            "hitDie": "4", 
+            "magicDevice": {
+                "addend": "32", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "56", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 3.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "28", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "10", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.9, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "1", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "3", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "72", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "flags": [
+            "CUMBER_GLOVE", 
+            "CHOOSE_SPELLS", 
+            "PSEUDO_ID_IMPROV"
+        ], 
+        "name": "Rogue", 
+        "stats": {
+            "CHA": "-1", 
+            "CON": "-1", 
+            "DEX": "3", 
+            "INT": "1", 
+            "STR": "0", 
+            "WIS": "-3", 
+            "bowFinesse": {
+                "addend": "66", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 3.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "45", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "25", 
+            "hitDie": "6", 
+            "magicDevice": {
+                "addend": "32", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "100", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 5.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "40", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 2.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "28", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "30", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.8, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "2", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "3", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.1, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "66", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 3.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "flags": [
+            "BRAVERY_30", 
+            "PSEUDO_ID_IMPROV"
+        ], 
+        "name": "Warrior", 
+        "stats": {
+            "CHA": "-1", 
+            "CON": "2", 
+            "DEX": "2", 
+            "INT": "-2", 
+            "STR": "3", 
+            "WIS": "-2", 
+            "bowFinesse": {
+                "addend": "55", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "digging": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "disarmTraps": {
+                "addend": "25", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "experienceMultiplier": "0", 
+            "hitDie": "9", 
+            "magicDevice": {
+                "addend": "18", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.7, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeFinesse": {
+                "addend": "70", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "meleeProwess": {
+                "addend": "100", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 5.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "savingThrow": {
+                "addend": "18", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 1.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "search": {
+                "addend": "20", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.8, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "searchRadius": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "stealth": {
+                "addend": "0", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 0.0, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }, 
+            "thrownFinesse": {
+                "addend": "55", 
+                "proc": {
+                    "name": "percentage stat mod", 
+                    "multiplier": 4.5, 
+                    "sourceStat": "creatureLevel"
+                }, 
+                "tier": 3
+            }
+        }
+    }, 
+    {
+        "category": "Ainu/maia", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "A"
+            }
+        }, 
+        "flags": [
+            "POWERFUL", 
+            "ONLY_ITEM", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "TAKE_ITEM", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "ainu", 
+        "type": "ainu"
+    }, 
+    {
+        "category": "Ancient Dragon/Wyrm", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "D"
+            }
+        }, 
+        "flags": [
+            "DRAGON", 
+            "EVIL", 
+            "POWERFUL", 
+            "SMART", 
+            "DROP_4", 
+            "MOVE_BODY", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "ancient dragon", 
+        "type": "ancient dragon"
+    }, 
+    {
+        "category": "Ant", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "a"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND", 
+            "BASH_DOOR"
+        ], 
+        "name": "ant", 
+        "type": "ant"
+    }, 
+    {
+        "category": "Bat", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "b"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "bat", 
+        "type": "bat"
+    }, 
+    {
+        "category": "Bird", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "B"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "bird", 
+        "type": "bird"
+    }, 
+    {
+        "category": "Canine (Dog)", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "C"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "canine", 
+        "type": "canine"
+    }, 
+    {
+        "category": "Centipede", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "c"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND"
+        ], 
+        "name": "centipede", 
+        "type": "centipede"
+    }, 
+    {
+        "category": "Creeping Coins", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "$"
+            }
+        }, 
+        "flags": [
+            "COLD_BLOOD", 
+            "METAL", 
+            "UNAWARE", 
+            "EMPTY_MIND", 
+            "ONLY_GOLD", 
+            "BASH_DOOR", 
+            "immune to electricity", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "MIMIC_INV"
+        ], 
+        "name": "creeping coins", 
+        "type": "creeping coins"
+    }, 
+    {
+        "category": "Dragon", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "d"
+            }
+        }, 
+        "flags": [
+            "DRAGON", 
+            "EVIL", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "dragon", 
+        "type": "dragon"
+    }, 
+    {
+        "category": "Dragon Fly", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "F"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND", 
+            "RAND_50", 
+            "BASH_DOOR", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "dragon fly", 
+        "type": "dragon fly"
+    }, 
+    {
+        "category": "Elemental", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "E"
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "immune to poison", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NONLIVING"
+        ], 
+        "name": "elemental", 
+        "type": "elemental"
+    }, 
+    {
+        "category": "Floating Eye", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "e"
+            }
+        }, 
+        "name": "eye", 
+        "type": "eye"
+    }, 
+    {
+        "category": "Feline (Cat)", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "f"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "feline", 
+        "type": "feline"
+    }, 
+    {
+        "category": "Ghost", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "G"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "INVISIBLE", 
+            "COLD_BLOOD", 
+            "PASS_WALL", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN"
+        ], 
+        "name": "ghost", 
+        "type": "ghost"
+    }, 
+    {
+        "category": "Giant Humanoid", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "P"
+            }
+        }, 
+        "flags": [
+            "GIANT", 
+            "EVIL", 
+            "BASH_DOOR"
+        ], 
+        "magic": {
+            "spells": ["throw a boulder"]
+        },
+        "name": "giant", 
+        "type": "giant"
+    }, 
+    {
+        "category": "Golem", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "g"
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "immune to electricity", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NONLIVING"
+        ], 
+        "name": "golem", 
+        "type": "golem"
+    }, 
+    {
+        "category": "Hobbit/Elf/Dwarf", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "h"
+            }
+        }, 
+        "flags": [
+            "OPEN_DOOR", 
+            "BASH_DOOR"
+        ], 
+        "name": "humanoid", 
+        "type": "humanoid"
+    }, 
+    {
+        "category": "Hybrid", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "H"
+            }
+        }, 
+        "name": "hybrid", 
+        "type": "hybrid"
+    }, 
+    {
+        "category": "Hydra", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "M"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "ONLY_GOLD", 
+            "BASH_DOOR", 
+            "FORCE_SLEEP", 
+            "HURT_COLD"
+        ], 
+        "name": "hydra", 
+        "type": "hydra"
+    }, 
+    {
+        "category": "Icky Thing", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "i"
+            }
+        }, 
+        "flags": [
+            "RAND_50"
+        ], 
+        "name": "icky thing", 
+        "type": "icky thing"
+    }, 
+    {
+        "category": "Insect", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "I"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND", 
+            "MULTIPLY", 
+            "RAND_25", 
+            "RAND_50"
+        ], 
+        "name": "insect", 
+        "type": "insect"
+    }, 
+    {
+        "category": "Jelly", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "j"
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "STUPID", 
+            "NO_FEAR"
+        ], 
+        "name": "jelly", 
+        "type": "jelly"
+    }, 
+    {
+        "category": "Killer Beetle", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "K"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND", 
+            "BASH_DOOR"
+        ], 
+        "name": "killer beetle", 
+        "type": "killer beetle"
+    }, 
+    {
+        "category": "Kobold", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "k"
+            }
+        }, 
+        "flags": [
+            "EVIL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "immune to poison"
+        ], 
+        "name": "kobold", 
+        "type": "kobold"
+    }, 
+    {
+        "category": "Lich", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "L"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "COLD_BLOOD", 
+            "SMART", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "immune to cold", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN", 
+            "FORCE_SLEEP"
+        ], 
+        "magic": {
+            "spells": ["brain smash"]
+        },
+        "name": "lich", 
+        "type": "lich"
+    }, 
+    {
+        "category": "Louse", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "l"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "WEIRD_MIND", 
+            "MULTIPLY", 
+            "RAND_50"
+        ], 
+        "name": "louse", 
+        "type": "louse"
+    }, 
+    {
+        "category": "Lurker", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "."
+            }
+        }, 
+        "flags": [
+            "COLD_BLOOD", 
+            "EMPTY_MIND", 
+            "INVISIBLE", 
+            "UNAWARE", 
+            "NEVER_MOVE", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "CHAR_CLEAR", 
+            "ATTR_CLEAR"
+        ], 
+        "name": "lurker", 
+        "type": "lurker"
+    }, 
+    {
+        "category": "Major Demon", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "U"
+            }
+        }, 
+        "flags": [
+            "DEMON", 
+            "EVIL", 
+            "ONLY_ITEM", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "major demon", 
+        "type": "major demon"
+    }, 
+    {
+        "category": "Mimic", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "?"
+            }
+        }, 
+        "flags": [
+            "COLD_BLOOD", 
+            "EMPTY_MIND", 
+            "UNAWARE", 
+            "NEVER_MOVE", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP", 
+            "ATTR_CLEAR"
+        ], 
+        "magic": {
+            "spells": ["cause blindness", "cause serious wounds", "cause confusion", "cause fear"]
+        },
+        "name": "mimic", 
+        "type": "mimic"
+    }, 
+    {
+        "category": "Minor Demon", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "u"
+            }
+        }, 
+        "flags": [
+            "DEMON", 
+            "EVIL", 
+            "immune to fire"
+        ], 
+        "name": "minor demon", 
+        "type": "minor demon"
+    }, 
+    {
+        "category": "Mold", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "m"
+            }
+        }, 
+        "flags": [
+            "NEVER_MOVE", 
+            "immune to poison", 
+            "HURT_FIRE", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP"
+        ], 
+        "name": "mold", 
+        "type": "mold"
+    }, 
+    {
+        "category": "Mushroom", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": ","
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "STUPID", 
+            "HURT_FIRE", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP"
+        ], 
+        "name": "mushroom", 
+        "type": "mushroom"
+    }, 
+    {
+        "category": "Naga", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "n"
+            }
+        }, 
+        "flags": [
+            "FEMALE", 
+            "EVIL", 
+            "HURT_COLD", 
+            "BASH_DOOR"
+        ], 
+        "name": "naga", 
+        "type": "naga"
+    }, 
+    {
+        "category": "Ogre", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "O"
+            }
+        }, 
+        "flags": [
+            "GIANT", 
+            "EVIL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR"
+        ], 
+        "name": "ogre", 
+        "type": "ogre"
+    }, 
+    {
+        "category": "Orc", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "o"
+            }
+        }, 
+        "flags": [
+            "MALE", 
+            "ORC", 
+            "EVIL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR"
+        ], 
+        "name": "orc", 
+        "type": "orc"
+    }, 
+    {
+        "category": "Person/Human", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "p"
+            }
+        }, 
+        "flags": [
+            "BASH_DOOR"
+        ], 
+        "name": "person", 
+        "type": "person"
+    }, 
+    {
+        "category": "You", 
+        "display": {
+            "ascii": {
+                "symbol": "@"
+            }
+        }, 
+        "equipDescToSlot": {
+            "around neck": "neck", 
+            "for melee": "weapon", 
+            "for ranged": "launcher", 
+            "holding ammo": "quiver", 
+            "on back": "back", 
+            "on body": "body", 
+            "on feet": "feet", 
+            "on hands": "hands", 
+            "on left finger": "finger", 
+            "on right finger": "finger", 
+            "on the noggin": "head", 
+            "providing cover": "shield", 
+            "providing light": "light source"
+        }, 
+        "name": "player", 
+        "stats": {
+            "CHA": 10, 
+            "CON": 10, 
+            "DEX": 10, 
+            "INT": 10, 
+            "STR": 10, 
+            "WIS": 10
+        },
+        "procs": [
+            {
+                "code": "do weapon attack",
+                "triggerCondition": "on attack"
+            }
+        ],
+        "type": "player"
+    }, 
+    {
+        "category": "Quadruped", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "q"
+            }
+        }, 
+        "flags": [
+            "BASH_DOOR"
+        ], 
+        "name": "quadruped", 
+        "type": "quadruped"
+    }, 
+    {
+        "category": "Quylthulg", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "Q"
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "INVISIBLE", 
+            "NEVER_BLOW", 
+            "NEVER_MOVE", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP"
+        ], 
+        "name": "quylthulg", 
+        "type": "quylthulg"
+    }, 
+    {
+        "category": "Reptile/Amphibian", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "R"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "HURT_COLD"
+        ], 
+        "name": "reptile", 
+        "type": "reptile"
+    }, 
+    {
+        "category": "Rodent", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "r"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "rodent", 
+        "type": "rodent"
+    }, 
+    {
+        "category": "Skeleton", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "s"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "COLD_BLOOD", 
+            "immune to cold", 
+            "immune to poison", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN"
+        ], 
+        "name": "skeleton", 
+        "type": "skeleton"
+    }, 
+    {
+        "category": "Snake", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "J"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "HURT_COLD", 
+            "BASH_DOOR"
+        ], 
+        "name": "snake", 
+        "type": "snake"
+    }, 
+    {
+        "category": "Spider/Scorpion/Tick", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "S"
+            }
+        }, 
+        "flags": [
+            "BASH_DOOR"
+        ], 
+        "name": "spider", 
+        "type": "spider"
+    }, 
+    {
+        "category": "Townsfolk", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "t"
+            }
+        }, 
+        "name": "townsfolk", 
+        "type": "townsfolk"
+    }, 
+    {
+        "category": "Troll", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "T"
+            }
+        }, 
+        "flags": [
+            "TROLL", 
+            "EVIL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR"
+        ], 
+        "name": "troll", 
+        "type": "troll"
+    }, 
+    {
+        "procs": ["don't allocate if already dead", "don't allocate if already existing"],
+        "name": "unique"
+    }, 
+    {
+        "category": "Vampire", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "V"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "COLD_BLOOD", 
+            "REGENERATE", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "HURT_LIGHT", 
+            "HURT_FIRE", 
+            "immune to cold", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN", 
+            "FORCE_SLEEP"
+        ], 
+        "magic": {
+            "spells": ["paralyze", "cause fear"]
+        },
+        "name": "vampire", 
+        "type": "vampire"
+    }, 
+    {
+        "category": "Vortex", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "v"
+            }
+        }, 
+        "flags": [
+            "EMPTY_MIND", 
+            "POWERFUL", 
+            "RAND_50", 
+            "BASH_DOOR", 
+            "NO_FEAR", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "FORCE_SLEEP", 
+            "NONLIVING"
+        ], 
+        "name": "vortex", 
+        "type": "vortex"
+    }, 
+    {
+        "category": "Worm/Worm Mass", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "w"
+            }
+        }, 
+        "flags": [
+            "ANIMAL"
+        ], 
+        "name": "worm", 
+        "type": "worm"
+    }, 
+    {
+        "category": "Wight/Wraith", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "W"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "COLD_BLOOD", 
+            "HURT_LIGHT", 
+            "immune to cold", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN"
+        ], 
+        "name": "wraith", 
+        "type": "wraith"
+    }, 
+    {
+        "category": "Xorn/Xaren", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "X"
+            }
+        }, 
+        "flags": [
+            "COLD_BLOOD", 
+            "EMPTY_MIND", 
+            "HURT_ROCK", 
+            "immune to poison", 
+            "NO_CONF", 
+            "NO_SLEEP"
+        ], 
+        "name": "xorn", 
+        "type": "xorn"
+    }, 
+    {
+        "category": "Yeek", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "y"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "immune to acid"
+        ], 
+        "name": "yeek", 
+        "type": "yeek"
+    }, 
+    {
+        "category": "Yeti", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "Y"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "immune to cold"
+        ], 
+        "name": "yeti", 
+        "type": "yeti"
+    }, 
+    {
+        "category": "Zephyr Hound", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "Z"
+            }
+        }, 
+        "flags": [
+            "ANIMAL", 
+            "FRIENDS"
+        ], 
+        "name": "zephyr hound", 
+        "type": "zephyr hound"
+    }, 
+    {
+        "category": "Zombie/Mummy", 
+        "templates": ["opponent"],
+        "display": {
+            "ascii": {
+                "symbol": "z"
+            }
+        }, 
+        "flags": [
+            "UNDEAD", 
+            "EVIL", 
+            "COLD_BLOOD", 
+            "OPEN_DOOR", 
+            "BASH_DOOR", 
+            "immune to cold", 
+            "immune to poison", 
+            "HURT_FIRE", 
+            "NO_CONF", 
+            "NO_SLEEP", 
+            "NO_STUN"
+        ], 
+        "name": "zombie", 
+        "type": "zombie"
+    }
+]
+

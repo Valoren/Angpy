@@ -1,0 +1,4 @@
+#!/bin/sh
+# Simply run this script to play Pyrel. 
+make all 
+python pyrel.py $*

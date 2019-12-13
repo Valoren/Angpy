@@ -1,0 +1,3171 @@
+[
+  {
+    "affixes": [
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }
+    ], 
+    "index": 1, 
+    "name": "Resistance", 
+    "allocatorRules": [
+      {
+        "minDepth": 25, 
+        "allowCategories": ["shield", "soft armor", "hard armor"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Light"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Stealth"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Warding"
+      }
+    ], 
+    "index": 2, 
+    "name": "Elvenkind", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "allowCategories": ["shield", "soft armor", "hard armor"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "index": 3, 
+    "description": "These faerie boots make you both faster and quieter.", 
+    "allocatorRules": [
+      {
+        "minDepth": 60, 
+        "allowCategories": ["soft boots", "hard boots"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix", 
+    "affixes": [
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Slow Descent"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Stealth"
+      }, 
+      {
+        "weighting": 18, 
+        "chance": 100, 
+        "name": "Speed"
+      }
+    ], 
+    "name": "Elvenkind"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Tough"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Bodykeeping"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Soulkeeping"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Vitality"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Warding"
+      }
+    ], 
+    "index": 4, 
+    "name": "Permanence", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "allowCategories": ["robe"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Spiked"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Masterwork"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Hardiness"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Infravision"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Free Action"
+      }
+    ], 
+    "index": 5, 
+    "name": "Dwarven", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["hard armor", "small shield", "large shield"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "prefix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Tough"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Arcana"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Bodykeeping"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Vitality"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Warding"
+      }
+    ], 
+    "index": 6, 
+    "name": "Preservation", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "allowCategories": ["shield"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Tough"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Intelligence"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Stealth"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Sophistication"
+      }
+    ], 
+    "index": 7, 
+    "name": "the Magi", 
+    "allocatorRules": [
+      {
+        "minDepth": 30, 
+        "allowCategories": ["cloak"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Intelligence"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Sophistication"
+      }
+    ], 
+    "index": 8, 
+    "name": "the Magi", 
+    "allocatorRules": [
+      {
+        "minDepth": 45, 
+        "allowCategories": ["crown"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Bodykeeping"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Agility"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Hardiness"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Durability"
+      }
+    ], 
+    "index": 9, 
+    "name": "Might", 
+    "allocatorRules": [
+      {
+        "minDepth": 45, 
+        "allowCategories": ["crown"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Wisdom"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Beauty"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Bravery"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Intuition"
+      }
+    ], 
+    "index": 10, 
+    "name": "Lordliness", 
+    "allocatorRules": [
+      {
+        "minDepth": 45, 
+        "allowCategories": ["crown"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Silence"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Certainty"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Bravery"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Fortitude"
+      }
+    ], 
+    "index": 11, 
+    "name": "Serenity", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "allowCategories": ["crown"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Light"
+      }, 
+      {
+        "weighting": 9, 
+        "chance": 100, 
+        "name": "Darkness"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Seeing"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Brightness"
+      }
+    ], 
+    "index": 12, 
+    "name": "Night and Day", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "allowCategories": ["crown"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Slaying"
+      }, 
+      {
+        "weighting": [4, 0],
+        "chance": [100, 100],
+        "name": "Strength"
+      }
+    ], 
+    "index": 13, 
+    "name": "Power", 
+    "allocatorRules": [
+      {
+        "minDepth": 30, 
+        "allowCategories": ["gloves"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slaying"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Slow Descent"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": [8, 0], 
+        "chance": [100, 100],
+        "name": "Agility"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Searching"
+      }
+    ], 
+    "index": 14, 
+    "name": "Thievery", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["gloves"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Slaying"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Hardiness"
+      }
+    ], 
+    "index": 15, 
+    "name": "Combat", 
+    "allocatorRules": [
+      {
+        "minDepth": 50, 
+        "denyCategories": ["gloves"],
+        "allowCategories": ["hand armor"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Tough"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Reinforced"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Stealth"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 12, 
+        "chance": 100, 
+        "name": "Warding"
+      }
+    ], 
+    "index": 16, 
+    "name": "Aman", 
+    "allocatorRules": [
+      {
+        "minDepth": 30, 
+        "allowCategories": ["cloak"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [1, 0, 0], 
+        "chance": [100, 66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Silver"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Iron"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Slay Demon"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Slay Evil"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Slay Undead"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Piety"
+      }, 
+      {
+        "weighting": 6, 
+        "chance": 100, 
+        "name": "Wisdom"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Bravery"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Support"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Force"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }
+    ], 
+    "index": 17, 
+    "name": "(Holy Avenger)", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Parrying"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Slow Descent"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Regeneration"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Stealth"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Support"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }
+    ], 
+    "index": 18, 
+    "name": "(Defender)", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0, 0], 
+        "chance": [100, 66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Iron"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Demon"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Orc"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Troll"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Dragon"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Brightness"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Darkness"
+      }, 
+      {
+        "weighting": 3, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Force"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }
+    ], 
+    "index": 19, 
+    "name": "Gondolin", 
+    "allocatorRules": [
+      {
+        "minDepth": 30, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0, 0], 
+        "chance": [100, 66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Orc"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Troll"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Giant"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Agility"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Hardiness"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Force"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }
+    ], 
+    "index": 20, 
+    "name": "Westernesse", 
+    "allocatorRules": [
+      {
+        "minDepth": 30, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [1, 0, 0], 
+        "chance": [100, 100, 50], 
+        "name": "Journeyman's"
+      },
+      {
+        "weighting": 0, 
+        "chance": 50, 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Aggravation"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Bravery"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Force"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }
+    ], 
+    "index": 21, 
+    "name": "Fury", 
+    "allocatorRules": [
+      {
+        "minDepth": 1, 
+        "denyCategories": ["Spear", "Awl-Pike", "Trident", "Halberd", "Pike"],
+        "allowCategories": ["War Hammer", "Maul", "Great Hammer", "Two-Handed Great Flail",
+                            "Executioner's Sword", "Zweihander", "Katana",
+                            "polearm"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Slay Animal"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Slow Digestion"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Intelligence"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 22, 
+    "name": "*Slay Animal*", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": 80
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Slay Evil"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Piety"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Wisdom"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 23, 
+    "name": "*Slay Evil*", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Silver"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Undead"
+      }, 
+      {
+        "weighting": 9, 
+        "chance": 100, 
+        "name": "Nightbane"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Wisdom"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 24, 
+    "name": "*Slay Undead*", 
+    "allocatorRules": [
+      {
+        "minDepth": 62, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Iron"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Demon"
+      }, 
+      {
+        "weighting": 9, 
+        "chance": 100, 
+        "name": "Demonbane"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Intelligence"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 25, 
+    "name": "*Slay Demon*", 
+    "allocatorRules": [
+      {
+        "minDepth": 67, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 15, 
+        "chance": 100, 
+        "name": "Slay Orc"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Adroitness"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Agility"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 26, 
+    "name": "*Slay Orc*", 
+    "allocatorRules": [
+      {
+        "minDepth": 10, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": 44
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 15, 
+        "chance": 100, 
+        "name": "Slay Troll"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Regeneration"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 27, 
+    "name": "*Slay Troll*", 
+    "allocatorRules": [
+      {
+        "minDepth": 26, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": 66
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 15, 
+        "chance": 100, 
+        "name": "Slay Giant"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Robustness"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 28, 
+    "name": "*Slay Giant*", 
+    "allocatorRules": [
+      {
+        "minDepth": 29, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Slay Dragon"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Dragonbane"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Bravery"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Hardiness"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Elven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dwarven"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Trollish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dunadan"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Orcish"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Giant"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Runed"
+      }, 
+      {
+        "weighting": 2, 
+        "chance": 0, 
+        "name": "Majestic"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Lead-Filled"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Dragonbone"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Crystal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Diamond"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Blackrock"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Sharp"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Keen"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Vicious"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Slicing"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Disruption"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Balance"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 0, 
+        "name": "Force"
+      }
+    ], 
+    "index": 29, 
+    "name": "*Slay Dragon*", 
+    "allocatorRules": [
+      {
+        "minDepth": 29, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 0, 
+        "chance": 50, 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Brutal"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Acid"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Impact"
+      }, 
+      {
+        "weighting": [5, 0],
+        "chance": [100, 100], 
+        "name": "Strength"
+      }, 
+      {
+        "weighting": [5, 0], 
+        "chance": [100, 100], 
+        "name": "Digging"
+      }
+    ], 
+    "index": 30, 
+    "name": "Earthquakes", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["digger"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Accuracy"
+      }, 
+      {
+        "weighting": 5, 
+        "chance": 100, 
+        "name": "Power"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Free Action"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": [5, 0], 
+        "chance": [100, 100],
+        "name": "Agility"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Extra Might"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }
+    ], 
+    "index": 31, 
+    "name": "Lothl\u00f3rien", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["bow"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Extra Might"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Extra Shots"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Durability"
+      }
+    ], 
+    "index": 32, 
+    "name": "the Haradrim", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["light crossbow"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Extra Might"
+      }, 
+      {
+        "weighting": 8, 
+        "chance": 100, 
+        "name": "Extra Shots"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Durability"
+      }, 
+      {
+        "weighting": [8, 0], 
+        "chance": [100, 100], 
+        "name": "Agility"
+      }
+    ], 
+    "index": 33, 
+    "name": "Buckland", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["sling"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 15, 
+        "chance": 100, 
+        "name": "Observation"
+      }, 
+      {
+        "weighting": 15, 
+        "chance": 100, 
+        "name": "Seeing"
+      }
+    ], 
+    "index": 34, 
+    "name": "True Sight", 
+    "allocatorRules": [
+      {
+        "minDepth": 20, 
+        "allowCategories": ["light source"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0], 
+        "chance": [66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 100, 
+        "chance": 100, 
+        "name": "Piety"
+      }, 
+      {
+        "weighting": 100, 
+        "chance": 100, 
+        "name": "Wisdom"
+      }, 
+      {
+        "weighting": 0, 
+        "chance": 100, 
+        "name": "Dweomercraft"
+      }
+    ], 
+    "index": 35, 
+    "name": "Blessed", 
+    "allocatorRules": [
+      {
+        "minDepth": 21, 
+        "allowCategories": ["hafted", "polearm", "sword"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "prefix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": [0, 0, 0], 
+        "chance": [100, 66, 33], 
+        "name": "Journeyman's"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Silver"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Iron"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Slay Demon"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Slay Evil"
+      }, 
+      {
+        "weighting": 7, 
+        "chance": 100, 
+        "name": "Slay Undead"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }
+    ], 
+    "index": 36, 
+    "name": "Holy Might", 
+    "allocatorRules": [
+      {
+        "minDepth": 40, 
+        "allowCategories": ["ammo"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "suffix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Black Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "White Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Blue Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Red Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Green Dragon Scale"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Resist Acid"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Resist Cold"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Resist Fire"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Resist Lightning"
+      }, 
+      {
+        "weighting": 60, 
+        "chance": 100, 
+        "name": "Null"
+      }
+    ], 
+    "index": 37, 
+    "name": "Multihued Dragon Scale", 
+    "allocatorRules": [
+      {
+        "minDepth": 75, 
+        "denyCategories": ["robe", "jerkin", "ring mail", "chain mail", "gloves"],
+        "allowCategories": ["hard boots", "greaves", "helm", "soft armor", "hard armor", "hand armor", "shield"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "prefix"
+  }, 
+  {
+    "affixes": [
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Law Dragon Scale"
+      }, 
+      {
+        "weighting": 4, 
+        "chance": 100, 
+        "name": "Chaos Dragon Scale"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Durability"
+      }
+    ], 
+    "index": 38, 
+    "name": "Balance Dragon Scale", 
+    "allocatorRules": [
+      {
+        "minDepth": 95, 
+        "denyCategories": ["robe", "jerkin", "ring mail", "chain mail", "gloves"],
+        "allowCategories": ["hard boots", "greaves", "helm", "soft armor", "hard armor", "hand armor", "shield"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "prefix"
+  },
+  {
+    "affixes": [
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Black Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "White Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Blue Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Red Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Green Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Law Dragon Scale"
+      }, 
+      {
+        "weighting": 10, 
+        "chance": 100, 
+        "name": "Pseudo-dragon Scale"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Chaos"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Arcana"
+      }, 
+      {
+        "weighting": 1, 
+        "chance": 100, 
+        "name": "Certainty"
+      }, 
+      {
+        "weighting": 60, 
+        "chance": 100, 
+        "name": "Null"
+      }
+    ], 
+    "index": 39, 
+    "name": "Power Dragon Scale", 
+    "allocatorRules": [
+      {
+        "minDepth": 100, 
+        "denyCategories": ["robe", "jerkin", "ring mail", "chain mail", "gloves"],
+        "allowCategories": ["hard boots", "greaves", "helm", "soft armor", "hard armor", "hand armor", "shield"],
+        "maxDepth": -1
+      }
+    ], 
+    "position": "prefix"
+  }
+]
